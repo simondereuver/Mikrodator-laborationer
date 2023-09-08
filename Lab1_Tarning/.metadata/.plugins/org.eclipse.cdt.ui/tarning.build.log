@@ -1,10 +1,10 @@
-11:23:23 **** Incremental Build of configuration Debug for project tarning ****
+16:34:14 **** Incremental Build of configuration Debug for project tarning ****
 make -j8 all 
 arm-none-eabi-size   tarning.elf 
    text	   data	    bss	    dec	    hex	filename
-   8368	     20	   1636	  10024	   2728	tarning.elf
+   8480	     20	   1636	  10136	   2798	tarning.elf
 Finished building: default.size.stdout
  
 
-11:23:23 Build Finished. 0 errors, 0 warnings. (took 330ms)
+16:34:15 Build Finished. 0 errors, 0 warnings. (took 548ms)
 
