@@ -183,7 +183,7 @@ int main(void)
 		  uint16_t		ld2_pin		= 0x01 << ld2_pin_nbr;
 		  HAL_GPIO_WritePin(ld2_gpio, ld2_pin, GPIO_PIN_RESET);
 	  }
-	  HAL_Delay(1);
+	  HAL_Delay(250);
 	  put_die_dots(die_nbr);
     /* USER CODE END WHILE */
 
