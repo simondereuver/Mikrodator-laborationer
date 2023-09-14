@@ -31,3 +31,69 @@
 2023-09-08 16:13:10,771 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 4062mS.
 2023-09-08 16:13:10,773 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
 2023-09-08 16:13:10,779 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-08 16:50:30,457 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 510460824 Bytes (1003487232)
+2023-09-08 16:50:32,089 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 537201560 Bytes (1003487232)
+2023-09-08 16:50:35,873 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 605881240 Bytes (1003487232)
+2023-09-08 16:50:36,708 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-08 16:50:36,709 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-08 16:50:36,710 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-08 16:50:36,711 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-08 16:50:36,712 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-08 16:50:36,716 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-08 16:50:37,062 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\license.tmp_save
+2023-09-08 16:50:37,304 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\license.tmp
+2023-09-08 16:50:37,369 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\gpio.tmp_save
+2023-09-08 16:50:37,645 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\gpio.tmp
+2023-09-08 16:50:37,869 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\stm32f4xx_it.c_save
+2023-09-08 16:50:38,517 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\stm32f4xx_it.c
+2023-09-08 16:50:38,540 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\stm32f4xx_it.h_save
+2023-09-08 16:50:38,685 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\stm32f4xx_it.h
+2023-09-08 16:50:38,734 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\stm32f4xx_hal_msp.c_save
+2023-09-08 16:50:38,971 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\stm32f4xx_hal_msp.c
+2023-09-08 16:50:38,978 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\system.tmp_save
+2023-09-08 16:50:39,091 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\system.tmp
+2023-09-08 16:50:39,129 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-09-08 16:50:39,352 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\stm32f4xx_hal_conf.h
+2023-09-08 16:50:39,458 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\main.h_save
+2023-09-08 16:50:39,663 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\main.h
+2023-09-08 16:50:39,687 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\main.c_save
+2023-09-08 16:50:39,953 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\main.c
+2023-09-08 16:50:41,140 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 309mS.
+2023-09-08 16:50:41,146 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-08 16:50:41,461 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-09-08 16:50:44,484 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 3338mS.
+2023-09-08 16:50:44,486 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-08 16:50:44,495 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-08 17:17:02,146 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 441717616 Bytes (964689920)
+2023-09-08 17:17:13,231 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 472190736 Bytes (964689920)
+2023-09-08 17:17:13,817 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 497374288 Bytes (964689920)
+2023-09-08 17:17:14,678 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-08 17:17:14,678 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-08 17:17:14,679 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-08 17:17:14,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-08 17:17:14,682 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-08 17:17:14,686 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-08 17:17:14,975 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\license.tmp_save
+2023-09-08 17:17:15,223 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\license.tmp
+2023-09-08 17:17:15,287 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\gpio.tmp_save
+2023-09-08 17:17:15,488 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\gpio.tmp
+2023-09-08 17:17:15,661 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\stm32f4xx_it.c_save
+2023-09-08 17:17:15,991 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\stm32f4xx_it.c
+2023-09-08 17:17:16,002 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\stm32f4xx_it.h_save
+2023-09-08 17:17:16,135 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\stm32f4xx_it.h
+2023-09-08 17:17:16,181 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\stm32f4xx_hal_msp.c_save
+2023-09-08 17:17:16,680 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\stm32f4xx_hal_msp.c
+2023-09-08 17:17:16,693 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\system.tmp_save
+2023-09-08 17:17:16,833 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\MXTmpFiles\system.tmp
+2023-09-08 17:17:16,876 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-09-08 17:17:17,099 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\stm32f4xx_hal_conf.h
+2023-09-08 17:17:17,232 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\main.h_save
+2023-09-08 17:17:17,453 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Inc\main.h
+2023-09-08 17:17:17,479 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\main.c_save
+2023-09-08 17:17:17,759 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab1_Tarning\tarning\Core\Src\main.c
+2023-09-08 17:17:19,170 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 344mS.
+2023-09-08 17:17:19,176 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-08 17:17:19,523 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-09-08 17:17:23,197 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 4021mS.
+2023-09-08 17:17:23,199 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-08 17:17:23,205 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
