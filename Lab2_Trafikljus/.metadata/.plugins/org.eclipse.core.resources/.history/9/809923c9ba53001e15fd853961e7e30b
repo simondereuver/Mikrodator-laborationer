@@ -205,104 +205,45 @@ int main(void)
 		  ev = ev_button_push;
 	  }
 
-	  if (curr_tick > last_tick){
-		  ticks_left_in_state--;
-	  }
-	  if (ticks_left_in_state == 0) {
-		  ev = ev_state_timeout;
-	  }
 
+	  set_traffic_lights(st);
 	  switch(s) {
 		case s_init:
 			//111 11
-			if (ev == ev_state_timeout){
-				ev = ev_none;
-				set_traffic_lights(st);
-				st = s_cars_stopped;
-				ticks_left_in_state = 0;
-			}
-
+			st = s_cars_stopped;
 
 		break;
 		case s_car_start:
 			//110 10
-			if (ev == ev_state_timeout){
-				st = s_car_go;
-				ticks_left_in_state = 2000;
-				ev = ev_none;
-				set_traffic_lights(st);
-			}
-
+			st = s_car_go;
 		break;
 		case s_car_go:
 			//001 10
-			if (ev == ev_button_push){
-				st = s_pushed_wait;
-				ticks_left_in_state = 0;
-				ev = ev_none;
-				set_traffic_lights(st);
-			}
-
+			st = s_pushed_wait;
 		break;
 		case s_cars_stopping:
 			//010 10
-			if (ev == ev_state_timeout){
-				st = s_car_stopped;
-				ticks_left_in_state = 1000;
-				ev = ev_none;
-				set_traffic_lights(st);
-			}
-
+			st = s_car_stopped;
 		break;
 		case s_cars_stopped:
 			//100 10
-			if (ev == ev_state_timeout){
-				st = s_ped_walk;
-				ticks_left_in_state = 2000;
-				ev = ev_none;
-				set_traffic_lights(st);
-			}
-
+			st = s_ped_walk;
 		break;
 		case s_pushed_wait:
 			//001 10
-			if (ev == ev_state_timeout){
-				st = s_cars_stopping;
-				ticks_left_in_state = 2000;
-				ev = ev_none;
-				set_traffic_lights(st);
-			}
-
+			st = s_cars_stopping;
 		break;
 		case s_ped_walk:
 			//100 01
-			if (ev == ev_state_timeout){
-				st = s_ped_stop;
-				ticks_left_in_state = 6000;
-				ev = ev_none;
-				set_traffic_lights(st);
-			}
-
+			st = s_ped_stop;
 		break;
 		case s_ped_stop:
 			//100 10
-			if (ev == ev_state_timeout){
-				st = s_car_start;
-				ticks_left_in_state = 2000;
-				ev = ev_none;
-				set_traffic_lights(st);
-			}
-
+			st = s_car_start;
 		break;
 		default:
 			//00000
-			if (ev == ev_state_timeout){
-				st = s_cars_stopped;
-				ticks_left_in_state = 2000;
-				ev = ev_none;
-				set_traffic_lights(st);
-			}
-
+			st = s_cars_stopped;
 		break;
 	  	}
 

@@ -299,8 +299,6 @@ int main(void)
 			if (ev == ev_state_timeout){
 				st = s_cars_stopped;
 				ticks_left_in_state = 2000;
-				ev = ev_none;
-				set_traffic_lights(st);
 			}
 
 		break;
