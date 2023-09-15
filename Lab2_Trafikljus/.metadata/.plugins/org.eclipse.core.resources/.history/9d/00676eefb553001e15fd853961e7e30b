@@ -71,7 +71,6 @@ static void MX_USART2_UART_Init(void);
 void set_traffic_lights(enum state s);
 void push_button_light_on();
 void push_button_light_off();
-int is_button_pressed();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -148,15 +147,6 @@ void push_button_light_off()
 {
 	HAL_GPIO_WritePin(GPIOB, PushButton_PIN, 0);
 }
-
-int is_button_pressed()
-{
-    uint32_t reg_reading = GPIOC->IDR;
-    if((reg_reading & 1 << 13) == 0)
-        return 1;
-    else
-        return 0;
-}
 /* USER CODE END 0 */
 
 /**
@@ -168,7 +158,6 @@ int main(void)
   /* USER CODE BEGIN 1 */
 	enum state st = s_init;
 	enum event ev = ev_none;
-	uint32_t = ticks_left_in_state, curr_tick, last_tick;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -196,16 +185,8 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int curr_press = is_button_pressed();
-  int last_press = curr_press;
   while (1)
   {
-	  ev = ev_none;
-	  if (curr_press != last_press) {
-		  ev = ev_button_push;
-	  }
-
-
 	  set_traffic_lights(st);
 	  switch(s) {
 		case s_init:
@@ -223,7 +204,7 @@ int main(void)
 		break;
 		case s_cars_stopping:
 			//010 10
-			st = s_car_stopped;
+
 		break;
 		case s_cars_stopped:
 			//100 10
@@ -239,15 +220,13 @@ int main(void)
 		break;
 		case s_ped_stop:
 			//100 10
-			st = s_car_start;
+
 		break;
 		default:
 			//00000
-			st = s_cars_stopped;
+
 		break;
 	  	}
-
-	  last_press = curr_press;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

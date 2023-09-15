@@ -43,24 +43,7 @@
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-enum event
-{
-	ev_none = 0,
-	ev_button_push,
-	ev_state_timeout
-};
 
-enum state
-{
-	s_init = 0,
-	s_car_start,
-	s_car_go,
-	s_cars_stopping,
-	s_cars_stopped,
-	s_pushed_wait,
-	s_ped_walk,
-	s_ped_stop
-};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -68,95 +51,12 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
-void set_traffic_lights(enum state s);
-void push_button_light_on();
-void push_button_light_off();
-int is_button_pressed();
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void set_traffic_lights(enum state s)
-{
-	HAL_GPIO_WritePin(GPIOB, CR_PIN, 0);
-	HAL_GPIO_WritePin(GPIOB, CY_PIN, 0);
-	HAL_GPIO_WritePin(GPIOB, CG_PIN, 0);
-	HAL_GPIO_WritePin(GPIOB, PR_PIN, 0);
-	HAL_GPIO_WritePin(GPIOB, PG_PIN, 0);
-	switch(s) {
-		case s_init:
-			//111 11
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, CY_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, CG_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PG_PIN, 1);
-		break;
-		case s_car_start:
-			//110 10
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, CY_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
-		break;
-		case s_car_go:
-			//001 10
-			HAL_GPIO_WritePin(GPIOB, CG_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
-		break;
-		case s_cars_stopping:
-			//010 10
-			HAL_GPIO_WritePin(GPIOB, CY_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
-		break;
-		case s_cars_stopped:
-			//100 10
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
-		break;
-		case s_pushed_wait:
-			//001 10
-			HAL_GPIO_WritePin(GPIOB, CG_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
-		break;
-		case s_ped_walk:
-			//100 01
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PG_PIN, 1);
-		break;
-		case s_ped_stop:
-			//100 10
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
-		break;
-		default:
-			//00000
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 0);
-			HAL_GPIO_WritePin(GPIOB, CY_PIN, 0);
-			HAL_GPIO_WritePin(GPIOB, CG_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 0);
-			HAL_GPIO_WritePin(GPIOB, PG_PIN, 1);
-		break;
-	}
 
-
-}
-void push_button_light_on()
-{
-	HAL_GPIO_WritePin(GPIOB, PushButton_PIN, 1);
-}
-void push_button_light_off()
-{
-	HAL_GPIO_WritePin(GPIOB, PushButton_PIN, 0);
-}
-
-int is_button_pressed()
-{
-    uint32_t reg_reading = GPIOC->IDR;
-    if((reg_reading & 1 << 13) == 0)
-        return 1;
-    else
-        return 0;
-}
 /* USER CODE END 0 */
 
 /**
@@ -166,9 +66,7 @@ int is_button_pressed()
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-	enum state st = s_init;
-	enum event ev = ev_none;
-	uint32_t = ticks_left_in_state, curr_tick, last_tick;
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -196,58 +94,8 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int curr_press = is_button_pressed();
-  int last_press = curr_press;
   while (1)
   {
-	  ev = ev_none;
-	  if (curr_press != last_press) {
-		  ev = ev_button_push;
-	  }
-
-
-	  set_traffic_lights(st);
-	  switch(s) {
-		case s_init:
-			//111 11
-			st = s_cars_stopped;
-
-		break;
-		case s_car_start:
-			//110 10
-			st = s_car_go;
-		break;
-		case s_car_go:
-			//001 10
-			st = s_pushed_wait;
-		break;
-		case s_cars_stopping:
-			//010 10
-			st = s_car_stopped;
-		break;
-		case s_cars_stopped:
-			//100 10
-			st = s_ped_walk;
-		break;
-		case s_pushed_wait:
-			//001 10
-			st = s_cars_stopping;
-		break;
-		case s_ped_walk:
-			//100 01
-			st = s_ped_stop;
-		break;
-		case s_ped_stop:
-			//100 10
-			st = s_car_start;
-		break;
-		default:
-			//00000
-			st = s_cars_stopped;
-		break;
-	  	}
-
-	  last_press = curr_press;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
