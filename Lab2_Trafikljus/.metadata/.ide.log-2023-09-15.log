@@ -1,0 +1,107 @@
+2023-09-15 11:50:02,902 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 417821280 Bytes (692060160)
+2023-09-15 15:06:47,594 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 327257616 Bytes (692060160)
+2023-09-15 15:06:50,083 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 362382864 Bytes (692060160)
+2023-09-15 15:06:53,033 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 420066848 Bytes (692060160)
+2023-09-15 15:06:53,287 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-15 15:06:53,287 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-15 15:06:53,287 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-15 15:06:53,288 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-15 15:06:53,288 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-15 15:06:53,289 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-15 15:06:53,465 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\license.tmp_save
+2023-09-15 15:06:53,589 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\license.tmp
+2023-09-15 15:06:53,636 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\gpio.tmp_save
+2023-09-15 15:06:53,938 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\gpio.tmp
+2023-09-15 15:06:54,042 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_it.c_save
+2023-09-15 15:06:54,240 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_it.c
+2023-09-15 15:06:54,256 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_it.h_save
+2023-09-15 15:06:54,344 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_it.h
+2023-09-15 15:06:54,379 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_hal_msp.c_save
+2023-09-15 15:06:54,501 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_hal_msp.c
+2023-09-15 15:06:54,511 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\system.tmp_save
+2023-09-15 15:06:54,580 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\system.tmp
+2023-09-15 15:06:54,607 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-09-15 15:06:54,694 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_hal_conf.h
+2023-09-15 15:06:54,746 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\main.h_save
+2023-09-15 15:06:54,869 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\main.h
+2023-09-15 15:06:54,891 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\main.c_save
+2023-09-15 15:06:55,040 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\main.c
+2023-09-15 15:06:55,663 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 225mS.
+2023-09-15 15:06:55,666 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-15 15:06:55,828 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-09-15 15:06:57,506 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1840mS.
+2023-09-15 15:06:57,507 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-15 15:06:57,509 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-15 15:42:31,230 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 553162336 Bytes (804257792)
+2023-09-15 15:42:33,270 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 576666368 Bytes (804257792)
+2023-09-15 15:42:35,707 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 616510208 Bytes (804257792)
+2023-09-15 15:42:35,930 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-15 15:42:35,931 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-15 15:42:35,931 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-09-15 15:42:35,931 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-15 15:42:35,931 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-15 15:42:35,931 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-15 15:42:35,932 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-15 15:42:36,161 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\license.tmp_save
+2023-09-15 15:42:36,278 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\license.tmp
+2023-09-15 15:42:36,305 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\gpio.tmp_save
+2023-09-15 15:42:36,388 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\gpio.tmp
+2023-09-15 15:42:36,509 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_it.c_save
+2023-09-15 15:42:36,647 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_it.c
+2023-09-15 15:42:36,653 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_it.h_save
+2023-09-15 15:42:36,727 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_it.h
+2023-09-15 15:42:36,749 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_hal_msp.c_save
+2023-09-15 15:42:36,894 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_hal_msp.c
+2023-09-15 15:42:36,899 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\system.tmp_save
+2023-09-15 15:42:36,963 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\system.tmp
+2023-09-15 15:42:36,986 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-09-15 15:42:37,097 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_hal_conf.h
+2023-09-15 15:42:37,131 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-09-15 15:42:37,131 [WARN] CodeGenerator:3760 - IP not found : null
+2023-09-15 15:42:37,146 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\main.h_save
+2023-09-15 15:42:37,264 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\main.h
+2023-09-15 15:42:37,283 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\main.c_save
+2023-09-15 15:42:37,408 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\main.c
+2023-09-15 15:42:38,021 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 236mS.
+2023-09-15 15:42:38,027 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-15 15:42:38,189 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-09-15 15:42:39,570 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1543mS.
+2023-09-15 15:42:39,571 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-15 15:42:39,575 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-15 16:33:25,936 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, TIM3, USART2]
+2023-09-15 16:39:48,023 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 566739448 Bytes (825229312)
+2023-09-15 16:39:49,908 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 618037848 Bytes (825229312)
+2023-09-15 16:39:51,793 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 706721688 Bytes (825229312)
+2023-09-15 16:39:52,071 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-15 16:39:52,071 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-15 16:39:52,071 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-09-15 16:39:52,071 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-15 16:39:52,071 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-15 16:39:52,071 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-15 16:39:52,072 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-15 16:39:52,229 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\license.tmp_save
+2023-09-15 16:39:52,328 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\license.tmp
+2023-09-15 16:39:52,356 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\gpio.tmp_save
+2023-09-15 16:39:52,464 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\gpio.tmp
+2023-09-15 16:39:52,555 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_it.c_save
+2023-09-15 16:39:52,784 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_it.c
+2023-09-15 16:39:52,789 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_it.h_save
+2023-09-15 16:39:52,860 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_it.h
+2023-09-15 16:39:52,879 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_hal_msp.c_save
+2023-09-15 16:39:52,967 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\stm32f4xx_hal_msp.c
+2023-09-15 16:39:52,971 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\system.tmp_save
+2023-09-15 16:39:53,024 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\MXTmpFiles\system.tmp
+2023-09-15 16:39:53,041 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-09-15 16:39:53,146 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\stm32f4xx_hal_conf.h
+2023-09-15 16:39:53,178 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-09-15 16:39:53,179 [WARN] CodeGenerator:3760 - IP not found : null
+2023-09-15 16:39:53,198 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\main.h_save
+2023-09-15 16:39:53,342 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Inc\main.h
+2023-09-15 16:39:53,355 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\main.c_save
+2023-09-15 16:39:53,476 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab2_Trafikljus\Trafikljus\Core\Src\main.c
+2023-09-15 16:39:53,990 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 125mS.
+2023-09-15 16:39:53,992 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-15 16:39:54,135 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-09-15 16:39:55,404 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1412mS.
+2023-09-15 16:39:55,404 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-15 16:39:55,407 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.

@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "abuzz.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -40,6 +40,8 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+TIM_HandleTypeDef htim3;
+
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
@@ -47,8 +49,16 @@ enum event
 {
 	ev_none = 0,
 	ev_button_push,
-	ev_state_timeout
+	ev_state_timeout,
+	ev_error = -99
 };
+
+#define EVQ_SIZE 10
+
+enum event evq[ EVQ_SIZE ];
+int 	   evq_count 	= 0;
+int 	   evq_front_ix = 0;
+int 	   evq_rear_ix 	= 0;
 
 enum state
 {
@@ -61,92 +71,96 @@ enum state
 	s_ped_walk,
 	s_ped_stop
 };
+
+int systick_count = 0;
+uint32_t ticks_left_in_state = 1000;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
+static void MX_TIM3_Init(void);
 /* USER CODE BEGIN PFP */
 void set_traffic_lights(enum state s);
 void push_button_light_on();
 void push_button_light_off();
 int is_button_pressed();
+void evq_push_back(enum event e);
+enum event evq_pop_front();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 void set_traffic_lights(enum state s)
 {
-	HAL_GPIO_WritePin(GPIOB, CR_PIN, 0);
-	HAL_GPIO_WritePin(GPIOB, CY_PIN, 0);
-	HAL_GPIO_WritePin(GPIOB, CG_PIN, 0);
-	HAL_GPIO_WritePin(GPIOB, PR_PIN, 0);
-	HAL_GPIO_WritePin(GPIOB, PG_PIN, 0);
+	HAL_GPIO_WritePin(GPIOB, CR_Pin, 0);
+	HAL_GPIO_WritePin(GPIOB, CY_Pin, 0);
+	HAL_GPIO_WritePin(GPIOB, CG_Pin, 0);
+	HAL_GPIO_WritePin(GPIOB, PR_Pin, 0);
+	HAL_GPIO_WritePin(GPIOB, PG_Pin, 0);
 	switch(s) {
 		case s_init:
 			//111 11
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, CY_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, CG_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PG_PIN, 1);
+			HAL_GPIO_WritePin(GPIOB, CR_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, CY_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, CG_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PR_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PG_Pin, 1);
 		break;
 		case s_car_start:
 			//110 10
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, CY_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
+			HAL_GPIO_WritePin(GPIOB, CR_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, CY_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PR_Pin, 1);
 		break;
 		case s_car_go:
 			//001 10
-			HAL_GPIO_WritePin(GPIOB, CG_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
+			HAL_GPIO_WritePin(GPIOB, CG_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PR_Pin, 1);
 		break;
 		case s_cars_stopping:
 			//010 10
-			HAL_GPIO_WritePin(GPIOB, CY_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
+			HAL_GPIO_WritePin(GPIOB, CY_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PR_Pin, 1);
 		break;
 		case s_cars_stopped:
 			//100 10
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
+			HAL_GPIO_WritePin(GPIOB, CR_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PR_Pin, 1);
 		break;
 		case s_pushed_wait:
 			//001 10
-			HAL_GPIO_WritePin(GPIOB, CG_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
+			HAL_GPIO_WritePin(GPIOB, CG_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PR_Pin, 1);
 		break;
 		case s_ped_walk:
 			//100 01
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PG_PIN, 1);
+			HAL_GPIO_WritePin(GPIOB, CR_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PG_Pin, 1);
 		break;
 		case s_ped_stop:
 			//100 10
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 1);
+			HAL_GPIO_WritePin(GPIOB, CR_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PR_Pin, 1);
 		break;
 		default:
 			//00000
-			HAL_GPIO_WritePin(GPIOB, CR_PIN, 0);
-			HAL_GPIO_WritePin(GPIOB, CY_PIN, 0);
-			HAL_GPIO_WritePin(GPIOB, CG_PIN, 1);
-			HAL_GPIO_WritePin(GPIOB, PR_PIN, 0);
-			HAL_GPIO_WritePin(GPIOB, PG_PIN, 1);
+			HAL_GPIO_WritePin(GPIOB, CR_Pin, 0);
+			HAL_GPIO_WritePin(GPIOB, CY_Pin, 0);
+			HAL_GPIO_WritePin(GPIOB, CG_Pin, 1);
+			HAL_GPIO_WritePin(GPIOB, PR_Pin, 0);
+			HAL_GPIO_WritePin(GPIOB, PG_Pin, 1);
 		break;
 	}
-
-
 }
 void push_button_light_on()
 {
-	HAL_GPIO_WritePin(GPIOB, PushButton_PIN, 1);
+	HAL_GPIO_WritePin(GPIOB, PB_Pin, 1);
 }
 void push_button_light_off()
 {
-	HAL_GPIO_WritePin(GPIOB, PushButton_PIN, 0);
+	HAL_GPIO_WritePin(GPIOB, PB_Pin, 0);
 }
 
 int is_button_pressed()
@@ -156,6 +170,46 @@ int is_button_pressed()
         return 1;
     else
         return 0;
+}
+
+void evq_push_back(enum event e)
+{
+	//if queue is full, ignore e
+	if (evq_count < EVQ_SIZE){
+		evq[evq_rear_ix] = e;
+		evq_rear_ix++;
+		evq_rear_ix%= EVQ_SIZE;
+		evq_count++;
+	}
+}
+enum event evq_pop_front()
+{
+	enum event e = ev_none;
+	if (evq_count > 0)
+	{
+		e = evq[evq_front_ix];
+		evq[evq_front_ix] = ev_error;
+		evq_front_ix++;
+		evq_front_ix %= EVQ_SIZE;
+		evq_count--;
+	}
+	return e;
+}
+
+void my_systick_handler()
+{
+	systick_count++;
+	if (systick_count == ticks_left_in_state)
+	{
+		HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
+		evq_push_back(ev_state_timeout);
+		systick_count = 0;
+	}
+}
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	evq_push_back(ev_button_push);
 }
 /* USER CODE END 0 */
 
@@ -168,7 +222,9 @@ int main(void)
   /* USER CODE BEGIN 1 */
 	enum state st = s_init;
 	enum event ev = ev_none;
-	uint32_t = ticks_left_in_state, curr_tick, last_tick;
+	//uint32_t ticks_left_in_state;
+	//uint32_t curr_tick;
+	//uint32_t last_tick;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -190,36 +246,48 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART2_UART_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int curr_press = is_button_pressed();
-  int last_press = curr_press;
+  //int curr_press = is_button_pressed();
+  //int last_press = curr_press;
+  set_traffic_lights(st);
+  //last_tick = HAL_GetTick();
+  abuzz_start();
   while (1)
   {
-	  ev = ev_none;
+	  ev = evq_pop_front();
+	  /*
+	  curr_press = is_button_pressed();
 	  if (curr_press != last_press) {
 		  ev = ev_button_push;
+		  push_button_light_on();
 	  }
+	  curr_tick = HAL_GetTick();
 
-	  if (curr_tick > last_tick){
+	  if (curr_tick != last_tick){
 		  ticks_left_in_state--;
 	  }
+
+
+
 	  if (ticks_left_in_state == 0) {
 		  ev = ev_state_timeout;
 	  }
+	  */
 
-	  switch(s) {
+	  switch(st) {
 		case s_init:
 			//111 11
-			if (ev == ev_state_timeout){
+			if (ev == ev_button_push){
 				ev = ev_none;
-				set_traffic_lights(st);
 				st = s_cars_stopped;
-				ticks_left_in_state = 0;
+				set_traffic_lights(st);
+				ticks_left_in_state = 2000;
 			}
 
 
@@ -228,7 +296,7 @@ int main(void)
 			//110 10
 			if (ev == ev_state_timeout){
 				st = s_car_go;
-				ticks_left_in_state = 2000;
+				ticks_left_in_state = 100;
 				ev = ev_none;
 				set_traffic_lights(st);
 			}
@@ -238,7 +306,7 @@ int main(void)
 			//001 10
 			if (ev == ev_button_push){
 				st = s_pushed_wait;
-				ticks_left_in_state = 0;
+				ticks_left_in_state = 2000;
 				ev = ev_none;
 				set_traffic_lights(st);
 			}
@@ -247,10 +315,11 @@ int main(void)
 		case s_cars_stopping:
 			//010 10
 			if (ev == ev_state_timeout){
-				st = s_car_stopped;
-				ticks_left_in_state = 1000;
+				st = s_cars_stopped;
+				ticks_left_in_state = 6000;
 				ev = ev_none;
 				set_traffic_lights(st);
+				push_button_light_off();
 			}
 
 		break;
@@ -258,9 +327,10 @@ int main(void)
 			//100 10
 			if (ev == ev_state_timeout){
 				st = s_ped_walk;
-				ticks_left_in_state = 2000;
+				ticks_left_in_state = 6000;
 				ev = ev_none;
 				set_traffic_lights(st);
+				abuzz_p_short();
 			}
 
 		break;
@@ -268,9 +338,10 @@ int main(void)
 			//001 10
 			if (ev == ev_state_timeout){
 				st = s_cars_stopping;
-				ticks_left_in_state = 2000;
+				ticks_left_in_state = 1000;
 				ev = ev_none;
 				set_traffic_lights(st);
+				push_button_light_on();
 			}
 
 		break;
@@ -278,9 +349,10 @@ int main(void)
 			//100 01
 			if (ev == ev_state_timeout){
 				st = s_ped_stop;
-				ticks_left_in_state = 6000;
+				ticks_left_in_state = 2000;
 				ev = ev_none;
 				set_traffic_lights(st);
+				abuzz_p_long();
 			}
 
 		break;
@@ -305,8 +377,8 @@ int main(void)
 
 		break;
 	  	}
-
-	  last_press = curr_press;
+	  //last_tick = curr_tick;
+	  //last_press = curr_press;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -358,6 +430,65 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+}
+
+/**
+  * @brief TIM3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM3_Init(void)
+{
+
+  /* USER CODE BEGIN TIM3_Init 0 */
+
+  /* USER CODE END TIM3_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM3_Init 1 */
+
+  /* USER CODE END TIM3_Init 1 */
+  htim3.Instance = TIM3;
+  htim3.Init.Prescaler = 0;
+  htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim3.Init.Period = 65535;
+  htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim3, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_Init(&htim3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim3, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_PWM_ConfigChannel(&htim3, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM3_Init 2 */
+
+  /* USER CODE END TIM3_Init 2 */
+  HAL_TIM_MspPostInit(&htim3);
+
 }
 
 /**
@@ -413,6 +544,10 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
 
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, PB_Pin|CG_Pin|CY_Pin|CR_Pin
+                          |PG_Pin|PR_Pin, GPIO_PIN_RESET);
+
   /*Configure GPIO pin : B1_Pin */
   GPIO_InitStruct.Pin = B1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
@@ -425,6 +560,19 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(LD2_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PB_Pin CG_Pin CY_Pin CR_Pin
+                           PG_Pin PR_Pin */
+  GPIO_InitStruct.Pin = PB_Pin|CG_Pin|CY_Pin|CR_Pin
+                          |PG_Pin|PR_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
