@@ -1,0 +1,10 @@
+16:21:01 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-size   Klocka_Labb.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14524	    112	   1976	  16612	   40e4	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+
+16:21:02 Build Finished. 0 errors, 0 warnings. (took 601ms)
+
