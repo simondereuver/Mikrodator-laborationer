@@ -173,3 +173,25 @@ Reason: (5) Unknown MCU found on target.
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-09-08 11:22:20.319
 !MESSAGE Existing sessions are:
+!SESSION 2023-09-26 15:54:50.862 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  C:\work\TMIK13\Lab1_Tarning\tarning\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\work\TMIK13\Lab1_Tarning\tarning\.cproject
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-26 15:55:24.151
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-26 15:56:00.483
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-26 15:56:00.498
+!MESSAGE Log4j2 initialized with config file C:\work\TMIK13\Lab1_Tarning\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-26 15:57:08.438
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-26 15:57:17.308
+!MESSAGE Indexed 'tarning' (22 sources, 110 headers) in 8.69 sec: 9,431 declarations; 38,960 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.3%)

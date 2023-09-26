@@ -50,9 +50,12 @@ return ch;
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-
+uint16_t button_exti_count;
+uint16_t button_debounced_count;
+uint16_t flag;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -69,6 +72,13 @@ void button_mode();
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	button_exti_count++;
+	flag = 1;
+}
+
 int uart_get_menu_choice(){
 	char str[1] = { '\0'};
 	uint16_t str_len = 1;
@@ -95,9 +105,26 @@ void clock_mode(){
 void button_mode(){
 	/* init segment */
 	/* main loop */
+	int b1_pressed;
+	int pressed;
 	while(1){
-		//do something
-
+		//deal with debouncing the button
+		//check b1 button (on board, active low)
+		b1_pressed = GPIO_PIN_RESET
+				== HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
+		qs_put_big_num(b1_pressed ? button_exti_count
+									: button_debounced_count);
+		if (flag == 1)
+		{
+			HAL_Delay(50); //value measured by probing
+			pressed = GPIO_PIN_RESET
+					== HAL_GPIO_ReadPin(MY_BTN_GPIO_Port, MY_BTN_Pin);
+			if(pressed)
+			{
+				button_debounced_count++;
+			}
+			flag = 0;
+		}
 	}
 }
 /* USER CODE END 0 */
@@ -139,6 +166,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  for (int i = 0; i < 10; i++)
+	  {
+		  uint32_t dly = 250;
+		  qs_put_big_num(i); HAL_Delay(dly);
+		  qs_put_digits(i,i,i,i,0); HAL_Delay(dly);
+		  qs_put_digits(i,i,i,i,1); HAL_Delay(dly);
+	  }
 	  uart_print_menu();
 	  int menu_choice = uart_get_menu_choice();
 	  switch(menu_choice)
@@ -256,11 +290,11 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, SEG_CLK_Pin|SEG_DIO_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : B1_Pin */
-  GPIO_InitStruct.Pin = B1_Pin;
+  /*Configure GPIO pins : B1_Pin MY_BTN_Pin */
+  GPIO_InitStruct.Pin = B1_Pin|MY_BTN_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /*Configure GPIO pin : LD2_Pin */
   GPIO_InitStruct.Pin = LD2_Pin;
@@ -282,6 +316,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(SEG_DIO_GPIO_Port, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI0_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
