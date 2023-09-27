@@ -40,3 +40,825 @@ arm-none-eabi-size   tarning.elf
    8480	     20	   1636	  10136	   2798	tarning.elf
 Finished building: default.size.stdout
  
+15:15:29 **** Clean-only build of configuration Debug for project Klocka_Labb ****
+make -j8 clean 
+rm -rf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.su
+rm -rf ./Core/Startup/startup_stm32f411retx.d ./Core/Startup/startup_stm32f411retx.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/quad_sseg.cyclo ./Core/Src/quad_sseg.d ./Core/Src/quad_sseg.o ./Core/Src/quad_sseg.su ./Core/Src/stm32f4xx_hal_msp.cyclo ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.cyclo ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.cyclo ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su
+rm -rf Klocka_Labb.elf Klocka_Labb.list Klocka_Labb.map default.size.stdout
+ 
+15:15:30 **** Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f411retx.d" -MT"Core/Startup/startup_stm32f411retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f411retx.o" "../Core/Startup/startup_stm32f411retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/quad_sseg.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/quad_sseg.d" -MT"Core/Src/quad_sseg.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/quad_sseg.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/main.c:77:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   77 | HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:77:1: warning: conflicting types for 'HAL_GPIO_EXTI_Callback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:6: note: previous declaration of 'HAL_GPIO_EXTI_Callback' with type 'void(uint16_t)' {aka 'void(short unsigned int)'}
+  239 | void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  15940	    132	   1988	  18060	   468c	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+17:35:19 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/quad_sseg.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/quad_sseg.d" -MT"Core/Src/quad_sseg.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/quad_sseg.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/main.c:80:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   80 | HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:80:1: warning: conflicting types for 'HAL_GPIO_EXTI_Callback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:6: note: previous declaration of 'HAL_GPIO_EXTI_Callback' with type 'void(uint16_t)' {aka 'void(short unsigned int)'}
+  239 | void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  17952	    132	   2060	  20144	   4eb0	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+17:35:57 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:80:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   80 | HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:80:1: warning: conflicting types for 'HAL_GPIO_EXTI_Callback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:6: note: previous declaration of 'HAL_GPIO_EXTI_Callback' with type 'void(uint16_t)' {aka 'void(short unsigned int)'}
+  239 | void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  17944	    132	   2060	  20136	   4ea8	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:40:32 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:62:1: error: unknown type name 'uint_32_t'; did you mean 'uint32_t'?
+   62 | uint_32_t seconds = 0;
+      | ^~~~~~~~~
+      | uint32_t
+../Core/Src/main.c:81:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   81 | HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:81:1: warning: conflicting types for 'HAL_GPIO_EXTI_Callback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:6: note: previous declaration of 'HAL_GPIO_EXTI_Callback' with type 'void(uint16_t)' {aka 'void(short unsigned int)'}
+  239 | void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:88:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   88 | HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:88:1: warning: conflicting types for 'HAL_TIM_PeriodElapsedCallback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:407,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2062:6: note: previous declaration of 'HAL_TIM_PeriodElapsedCallback' with type 'void(TIM_HandleTypeDef *)'
+ 2062 | void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:91:1: error: expected expression before '}' token
+   91 | }
+      | ^
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:121:17: error: 'b1_pressed' undeclared (first use in this function)
+  121 |                 b1_pressed = GPIO_PIN_RESET
+      |                 ^~~~~~~~~~
+../Core/Src/main.c:121:17: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:123:62: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                              ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                                ^
+../Core/Src/main.c:123:66: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                                  ^
+../Core/Src/main.c:123:68: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                                    ^
+../Core/Src/main.c:124:92: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                            ^
+../Core/Src/main.c:124:94: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                              ^
+../Core/Src/main.c:124:96: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                                ^
+../Core/Src/main.c:124:98: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                                  ^
+../Core/Src/main.c:123:33: error: too few arguments to function 'qs_put_digits'
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                 ^~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/quad_sseg.h:76:6: note: declared here
+   76 | void qs_put_digits(
+      |      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+18:41:20 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:62:1: error: unknown type name 'uint_32_t'; did you mean 'uint32_t'?
+   62 | uint_32_t seconds = 0;
+      | ^~~~~~~~~
+      | uint32_t
+../Core/Src/main.c:81:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   81 | HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:81:1: warning: conflicting types for 'HAL_GPIO_EXTI_Callback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:6: note: previous declaration of 'HAL_GPIO_EXTI_Callback' with type 'void(uint16_t)' {aka 'void(short unsigned int)'}
+  239 | void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:88:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   88 | HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:88:1: warning: conflicting types for 'HAL_TIM_PeriodElapsedCallback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:407,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2062:6: note: previous declaration of 'HAL_TIM_PeriodElapsedCallback' with type 'void(TIM_HandleTypeDef *)'
+ 2062 | void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:91:1: error: expected expression before '}' token
+   91 | }
+      | ^
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:124:62: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                              ^
+../Core/Src/main.c:124:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                                ^
+../Core/Src/main.c:124:66: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                                  ^
+../Core/Src/main.c:124:68: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                                    ^
+../Core/Src/main.c:125:92: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  125 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                            ^
+../Core/Src/main.c:125:94: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  125 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                              ^
+../Core/Src/main.c:125:96: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  125 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                                ^
+../Core/Src/main.c:125:98: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  125 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                                  ^
+../Core/Src/main.c:124:33: error: too few arguments to function 'qs_put_digits'
+  124 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                 ^~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/quad_sseg.h:76:6: note: declared here
+   76 | void qs_put_digits(
+      |      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+18:41:33 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:62:1: error: unknown type name 'uint_32_t'; did you mean 'uint32_t'?
+   62 | uint_32_t seconds = 0;
+      | ^~~~~~~~~
+      | uint32_t
+../Core/Src/main.c:81:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   81 | HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:81:1: warning: conflicting types for 'HAL_GPIO_EXTI_Callback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:6: note: previous declaration of 'HAL_GPIO_EXTI_Callback' with type 'void(uint16_t)' {aka 'void(short unsigned int)'}
+  239 | void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:88:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   88 | HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:88:1: warning: conflicting types for 'HAL_TIM_PeriodElapsedCallback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:407,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2062:6: note: previous declaration of 'HAL_TIM_PeriodElapsedCallback' with type 'void(TIM_HandleTypeDef *)'
+ 2062 | void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:62: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                              ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                                ^
+../Core/Src/main.c:123:66: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                                  ^
+../Core/Src/main.c:123:68: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                                                    ^
+../Core/Src/main.c:124:92: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                            ^
+../Core/Src/main.c:124:94: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                              ^
+../Core/Src/main.c:124:96: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                                ^
+../Core/Src/main.c:124:98: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  124 |                                                                                         :(4,3,2,1,0) );
+      |                                                                                                  ^
+../Core/Src/main.c:123:33: error: too few arguments to function 'qs_put_digits'
+  123 |                                 qs_put_digits(b1_pressed ? (1,2,3,4,0)
+      |                                 ^~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/quad_sseg.h:76:6: note: declared here
+   76 | void qs_put_digits(
+      |      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+18:42:13 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:62:1: error: unknown type name 'uint_32_t'; did you mean 'uint32_t'?
+   62 | uint_32_t seconds = 0;
+      | ^~~~~~~~~
+      | uint32_t
+../Core/Src/main.c:81:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   81 | HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+      | ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:81:1: warning: conflicting types for 'HAL_GPIO_EXTI_Callback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:239:6: note: previous declaration of 'HAL_GPIO_EXTI_Callback' with type 'void(uint16_t)' {aka 'void(short unsigned int)'}
+  239 | void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:88:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   88 | HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:88:1: warning: conflicting types for 'HAL_TIM_PeriodElapsedCallback'
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:407,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2062:6: note: previous declaration of 'HAL_TIM_PeriodElapsedCallback' with type 'void(TIM_HandleTypeDef *)'
+ 2062 | void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:61: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                             ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                                ^
+../Core/Src/main.c:123:67: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                                   ^
+../Core/Src/main.c:123:70: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                                      ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+18:42:43 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:62:1: error: unknown type name 'uint_32_t'; did you mean 'uint32_t'?
+   62 | uint_32_t seconds = 0;
+      | ^~~~~~~~~
+      | uint32_t
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:61: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                             ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                                ^
+../Core/Src/main.c:123:67: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                                   ^
+../Core/Src/main.c:123:70: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                                      ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+18:42:55 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:61: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                             ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                                ^
+../Core/Src/main.c:123:67: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                                   ^
+../Core/Src/main.c:123:70: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 0
+      |                                                                      ^
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18248	    132	   2060	  20440	   4fd8	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:44:28 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:61: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1
+      |                                                             ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1
+      |                                                                ^
+../Core/Src/main.c:123:67: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1
+      |                                                                   ^
+../Core/Src/main.c:123:70: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1
+      |                                                                      ^
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18160	    132	   2060	  20352	   4f80	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:45:17 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:61: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1, 1
+      |                                                             ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1, 1
+      |                                                                ^
+../Core/Src/main.c:123:67: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1, 1
+      |                                                                   ^
+../Core/Src/main.c:123:70: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1, 1
+      |                                                                      ^
+../Core/Src/main.c:123:73: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1, 1
+      |                                                                         ^
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18160	    132	   2060	  20352	   4f80	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:46:07 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:61: error: expected ':' before numeric constant
+  123 |                                 qs_put_digits(b1_pressed ? 1 2 3 4 1
+      |                                                             ^~
+      |                                                             :
+../Core/Src/main.c:123:33: error: too few arguments to function 'qs_put_digits'
+  123 |                                 qs_put_digits(b1_pressed ? 1 2 3 4 1
+      |                                 ^~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/quad_sseg.h:76:6: note: declared here
+   76 | void qs_put_digits(
+      |      ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+18:46:20 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:61: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1
+      |                                                             ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1
+      |                                                                ^
+../Core/Src/main.c:123:67: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1
+      |                                                                   ^
+../Core/Src/main.c:123:70: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 1, 2, 3, 4, 1
+      |                                                                      ^
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18160	    132	   2060	  20352	   4f80	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:47:40 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:61: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 2, 3, 4, 1, 1
+      |                                                             ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 2, 3, 4, 1, 1
+      |                                                                ^
+../Core/Src/main.c:123:67: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 2, 3, 4, 1, 1
+      |                                                                   ^
+../Core/Src/main.c:123:70: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 2, 3, 4, 1, 1
+      |                                                                      ^
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18160	    132	   2060	  20352	   4f80	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:48:20 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-size   Klocka_Labb.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18160	    132	   2060	  20352	   4f80	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+18:49:07 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:61: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 2, 3, 4, 1, 1
+      |                                                             ^
+../Core/Src/main.c:123:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 2, 3, 4, 1, 1
+      |                                                                ^
+../Core/Src/main.c:123:67: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 2, 3, 4, 1, 1
+      |                                                                   ^
+../Core/Src/main.c:123:70: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ? 2, 3, 4, 1, 1
+      |                                                                      ^
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18160	    132	   2060	  20352	   4f80	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:49:58 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:60: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ?2, 3, 4, 1, 0
+      |                                                            ^
+../Core/Src/main.c:123:63: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ?2, 3, 4, 1, 0
+      |                                                               ^
+../Core/Src/main.c:123:66: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ?2, 3, 4, 1, 0
+      |                                                                  ^
+../Core/Src/main.c:123:69: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ?2, 3, 4, 1, 0
+      |                                                                     ^
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18160	    132	   2060	  20352	   4f80	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:51:09 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:123:60: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ?2, 3, 0, 1, 0
+      |                                                            ^
+../Core/Src/main.c:123:63: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ?2, 3, 0, 1, 0
+      |                                                               ^
+../Core/Src/main.c:123:66: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ?2, 3, 0, 1, 0
+      |                                                                  ^
+../Core/Src/main.c:123:69: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  123 |                                 qs_put_digits(b1_pressed ?2, 3, 0, 1, 0
+      |                                                                     ^
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18160	    132	   2060	  20352	   4f80	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:58:37 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:125:20: warning: 'b1_pressed' is used uninitialized [-Wuninitialized]
+  125 |                 if (b1_pressed) {
+      |                    ^
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18148	    132	   2060	  20340	   4f74	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:59:33 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18152	    132	   2060	  20344	   4f78	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+18:59:53 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18176	    132	   2060	  20368	   4f90	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+19:24:36 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:97:9: error: 'colon_flicker' undeclared (first use in this function); did you mean 'colonFlicker'?
+   97 |         colon_flicker = 1;
+      |         ^~~~~~~~~~~~~
+      |         colonFlicker
+../Core/Src/main.c:97:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+19:25:00 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:97:9: error: 'colon_Flicker' undeclared (first use in this function); did you mean 'colonFlicker'?
+   97 |         colon_Flicker = 1;
+      |         ^~~~~~~~~~~~~
+      |         colonFlicker
+../Core/Src/main.c:97:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:100:17: error: 'colon_flicker' undeclared (first use in this function); did you mean 'colonFlicker'?
+  100 |                 colon_flicker = 0;
+      |                 ^~~~~~~~~~~~~
+      |                 colonFlicker
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+19:25:14 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18256	    136	   2064	  20456	   4fe8	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+19:35:10 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:115:25: error: 'minutessTens' undeclared (first use in this function); did you mean 'minutesTens'?
+  115 |                         minutessTens = 0;
+      |                         ^~~~~~~~~~~~
+      |                         minutesTens
+../Core/Src/main.c:115:25: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'clock_mode':
+../Core/Src/main.c:171:48: error: 'minuteOnes' undeclared (first use in this function); did you mean 'minutesOnes'?
+  171 |                     qs_put_digits(minutesTens, minuteOnes, secondsTens, secondsOnes, colonFlicker);
+      |                                                ^~~~~~~~~~
+      |                                                minutesOnes
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+19:35:28 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:115:25: error: 'minutessTens' undeclared (first use in this function); did you mean 'minutesTens'?
+  115 |                         minutessTens = 0;
+      |                         ^~~~~~~~~~~~
+      |                         minutesTens
+../Core/Src/main.c:115:25: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+19:35:41 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18376	    136	   2064	  20576	   5060	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+19:48:07 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:124:22: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  124 |         if(hoursOnes == 4 & hoursTens == 2){
+      |            ~~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18456	    136	   2064	  20656	   50b0	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+19:48:59 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18456	    136	   2064	  20656	   50b0	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+19:49:47 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18456	    136	   2064	  20656	   50b0	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 
+19:49:58 **** Incremental Build of configuration Debug for project Klocka_Labb ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Klocka_Labb.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab3_Klocka_Knapp\Klocka_Labb\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Klocka_Labb.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Klocka_Labb.elf
+ 
+arm-none-eabi-size   Klocka_Labb.elf 
+arm-none-eabi-objdump -h -S  Klocka_Labb.elf  > "Klocka_Labb.list"
+   text	   data	    bss	    dec	    hex	filename
+  18456	    136	   2064	  20656	   50b0	Klocka_Labb.elf
+Finished building: default.size.stdout
+ 
+Finished building: Klocka_Labb.list
+ 

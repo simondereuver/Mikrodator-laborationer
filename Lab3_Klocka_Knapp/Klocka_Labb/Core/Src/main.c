@@ -50,18 +50,30 @@ return ch;
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+TIM_HandleTypeDef htim9;
+
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 uint16_t button_exti_count;
 uint16_t button_debounced_count;
 uint16_t flag;
+uint32_t last_flank_causing_exti;
+uint8_t secondsOnes = 0;
+uint8_t secondsTens = 0;
+uint8_t minutesOnes = 9;
+uint8_t minutesTens = 5;
+uint8_t hoursOnes = 3;
+uint8_t hoursTens = 2;
+uint8_t colonFlicker = 0;
+int freq_counter = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
+static void MX_TIM9_Init(void);
 /* USER CODE BEGIN PFP */
 int uart_get_menu_choice();
 void uart_print_menu();
@@ -73,10 +85,53 @@ void button_mode();
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 	button_exti_count++;
-	flag = 1;
+	last_flank_causing_exti = HAL_GetTick();
+	flag = 1; //set flag to 1 to flag an unhandled_exti
+}
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+	freq_counter++;
+	colonFlicker = 1;
+	if (freq_counter >= 2){
+		freq_counter = 0;
+		colonFlicker = 0;
+		secondsOnes++;
+	}
+
+	if (secondsOnes > 9){
+		secondsOnes = 0;
+		secondsTens++;
+	}
+	if (secondsTens > 5){
+		secondsTens = 0;
+		minutesOnes++;
+	}
+	if (minutesOnes > 9){
+		minutesOnes = 0;
+		minutesTens++;
+	}
+	if (minutesTens > 5){
+		minutesTens = 0;
+		hoursOnes++;
+	}
+	if(hoursOnes > 9){
+		hoursOnes = 0;
+		hoursTens++;
+	}
+	if((hoursOnes == 4) & (hoursTens == 2)){
+		hoursOnes = 0;
+		hoursTens = 0;
+	}
+	/*
+	secondsTens = 0;
+	minuteOnes = 8;
+	minutesTens = 5;
+	hoursOnes = 2;
+	hoursTens = 3;
+	*/
 }
 
 int uart_get_menu_choice(){
@@ -97,9 +152,32 @@ void uart_print_bad_choice(){
 }
 void clock_mode(){
 	/* init segment */
+	//qs_put_digits(1,2,3,4,0); 1 är första siffran, 2 andra osv, 0 är :
+	//mm:ss
+	//qs_put_digits(5,9,0,0,0);
+	//hh:mm
+	//qs_put_digits(2,3,5,6,0);
+	HAL_Delay(3000);
 	/* main loop */
+	HAL_TIM_Base_Start_IT(&htim9);
+	//HAL_TIM_PeriodElapsedCallback(&htim9);
+	//start time
+	int b1_pressed;
 	while(1){
+		/*
+		b1_pressed = GPIO_PIN_RESET
+						== HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
+				qs_put_digits(b1_pressed ? 1 2, 3, 4, 1,
+											: 4, 3, 2, 1, 1 ); dont work :(*/
+		b1_pressed = GPIO_PIN_RESET
+								== HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
+		if (b1_pressed) {
+		    qs_put_digits(hoursTens, hoursOnes, minutesTens, minutesOnes, colonFlicker);
+		} else {
+		    qs_put_digits(minutesTens, minutesOnes, secondsTens, secondsOnes, colonFlicker);
+		}
 		//do something
+
 	}
 }
 void button_mode(){
@@ -110,20 +188,22 @@ void button_mode(){
 	while(1){
 		//deal with debouncing the button
 		//check b1 button (on board, active low)
+		uint32_t current_tick = HAL_GetTick();
 		b1_pressed = GPIO_PIN_RESET
 				== HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
 		qs_put_big_num(b1_pressed ? button_exti_count
 									: button_debounced_count);
-		if (flag == 1)
+		if (flag)
 		{
-			HAL_Delay(50); //value measured by probing
+			if(current_tick - last_flank_causing_exti >= 50) //50 is value measured by probing
 			pressed = GPIO_PIN_RESET
 					== HAL_GPIO_ReadPin(MY_BTN_GPIO_Port, MY_BTN_Pin);
 			if(pressed)
 			{
 				button_debounced_count++;
 			}
-			flag = 0;
+			flag = 0; //makes sure we dont go back into the if case of the flag
+			//so we dont need to reset the last_flank variable
 		}
 	}
 }
@@ -158,6 +238,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART2_UART_Init();
+  MX_TIM9_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -166,13 +247,15 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  /*
 	  for (int i = 0; i < 10; i++)
 	  {
 		  uint32_t dly = 250;
 		  qs_put_big_num(i); HAL_Delay(dly);
-		  qs_put_digits(i,i,i,i,0); HAL_Delay(dly);
+		  qs_put_digits(1,2,3,4,0); HAL_Delay(dly);
 		  qs_put_digits(i,i,i,i,1); HAL_Delay(dly);
 	  }
+	  */
 	  uart_print_menu();
 	  int menu_choice = uart_get_menu_choice();
 	  switch(menu_choice)
@@ -232,6 +315,44 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+}
+
+/**
+  * @brief TIM9 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM9_Init(void)
+{
+
+  /* USER CODE BEGIN TIM9_Init 0 */
+
+  /* USER CODE END TIM9_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+
+  /* USER CODE BEGIN TIM9_Init 1 */
+
+  /* USER CODE END TIM9_Init 1 */
+  htim9.Instance = TIM9;
+  htim9.Init.Prescaler = 42000-1;
+  htim9.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim9.Init.Period = 1000-1;
+  htim9.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim9.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim9) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim9, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM9_Init 2 */
+
+  /* USER CODE END TIM9_Init 2 */
+
 }
 
 /**
