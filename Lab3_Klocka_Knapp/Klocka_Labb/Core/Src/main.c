@@ -157,7 +157,6 @@ void clock_mode(){
 	//qs_put_digits(5,9,0,0,0);
 	//hh:mm
 	//qs_put_digits(2,3,5,6,0);
-	HAL_Delay(3000);
 	/* main loop */
 	HAL_TIM_Base_Start_IT(&htim9);
 	//HAL_TIM_PeriodElapsedCallback(&htim9);

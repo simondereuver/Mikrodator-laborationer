@@ -1,0 +1,11 @@
+2023-09-29 16:16:43,022 [INFO] Activator:176 - 
+
+
+2023-09-29 16:16:43,024 [INFO] Activator:177 - !SESSION log4j initialized
+2023-09-29 16:16:46,046 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-09-29 16:17:22,941 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849
+2023-09-29 16:17:22,967 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/mcu/
+2023-09-29 16:17:22,968 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/boardmanager/
+2023-09-29 16:17:22,968 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\/plugins/mcufinder/images/
+2023-09-29 16:17:22,980 [INFO] ApiDb:250 - Set database path to: C:\Users\46763\.stmcufinder\plugins\mcufinder//mcu/
+2023-09-29 16:17:22,981 [INFO] DbMcusAds:125 - Set database path to: C:\Users\46763\.stmcufinder\plugins\mcufinder//mcu/
