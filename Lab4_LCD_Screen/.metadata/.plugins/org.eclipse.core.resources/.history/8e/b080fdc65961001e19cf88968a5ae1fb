@@ -143,9 +143,10 @@ void TextLCD_SetDDRAMAdr(TextLCDType * hlcd, uint8_t adr)
 void TextLCD_Position	(TextLCDType * hlcd, int col, int row)
 {
 	if(row == 1)
-		TextLCD_SetDDRAMAdr(hlcd, 0x00 + col);
+		TextLCD_SetDDRAMAdr(hlcd, 0x00);
 	else
-		TextLCD_SetDDRAMAdr(hlcd, 0x40 + col);
+		TextLCD_SetDDRAMAdr(hlcd, 0x40);
+	TextLCD_SetDDRAMAdr(hlcd, col - 1);
 }
 
 void TextLCD_PutChar	(TextLCDType * hlcd, char c)

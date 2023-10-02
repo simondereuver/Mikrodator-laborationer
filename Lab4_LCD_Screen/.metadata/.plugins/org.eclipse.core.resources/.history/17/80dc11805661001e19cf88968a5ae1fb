@@ -136,16 +136,13 @@ void TextLCD_Clear		(TextLCDType * hlcd)
 
 void TextLCD_SetDDRAMAdr(TextLCDType * hlcd, uint8_t adr)
 {
-	TextLCD_SendByte(hlcd, 0x80 + adr, 0);
+	TextLCD_SendByte(hlcd, )
 }
 
 
 void TextLCD_Position	(TextLCDType * hlcd, int col, int row)
 {
-	if(row == 1)
-		TextLCD_SetDDRAMAdr(hlcd, 0x00 + col);
-	else
-		TextLCD_SetDDRAMAdr(hlcd, 0x40 + col);
+
 }
 
 void TextLCD_PutChar	(TextLCDType * hlcd, char c)

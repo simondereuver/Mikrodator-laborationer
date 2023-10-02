@@ -125,27 +125,24 @@ void TextLCD_SetBacklightFlag(GPIO_PinState bt)
 
 void TextLCD_Home		(TextLCDType * hlcd)
 {
-	TextLCD_SendByte(hlcd, 0x02, 0);
+
 }
 
 
 void TextLCD_Clear		(TextLCDType * hlcd)
 {
-	TextLCD_SendByte(hlcd, 0x01, 0);
+
 }
 
 void TextLCD_SetDDRAMAdr(TextLCDType * hlcd, uint8_t adr)
 {
-	TextLCD_SendByte(hlcd, 0x80 + adr, 0);
+
 }
 
 
 void TextLCD_Position	(TextLCDType * hlcd, int col, int row)
 {
-	if(row == 1)
-		TextLCD_SetDDRAMAdr(hlcd, 0x00 + col);
-	else
-		TextLCD_SetDDRAMAdr(hlcd, 0x40 + col);
+
 }
 
 void TextLCD_PutChar	(TextLCDType * hlcd, char c)
@@ -157,10 +154,9 @@ void TextLCD_PutChar	(TextLCDType * hlcd, char c)
 void TextLCD_PutStr		(TextLCDType * hlcd, char * str)
 {
 	int i = 0;
-	while(str[i] != '\0')
+	while(str[i] != '\n')
 	{
 		TextLCD_PutChar(hlcd, str[i]);
-		HAL_Delay(200);
 		i++;
 	}
 

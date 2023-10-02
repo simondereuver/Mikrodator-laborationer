@@ -191,7 +191,7 @@ int main(void)
   char c = 0;
   const char ASCII_CAPITAL_OFFSET = 'A';
   const char LETTERS_TOTAL = 'Z' - 'A';
-  TextLCD_SendByte(&lcd, 0x0F, 0);
+  TextLCD_SendByte(&lcd, 0x3C, 1);
   while (1)
   {
 	  /*
@@ -201,7 +201,6 @@ int main(void)
 		  cd_tick(&my_clock);
 	  }
 	  */
-	  TextLCD_Position(&lcd, 0, 2);
 	  wait_for_button_press();
 	  TextLCD_PutChar(&lcd, c + ASCII_CAPITAL_OFFSET);
 	  c = (c+1) % LETTERS_TOTAL;

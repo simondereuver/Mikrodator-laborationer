@@ -6,6 +6,6 @@
 ../Core/Src/lcd.c:126:6:TextLCD_Home	1
 ../Core/Src/lcd.c:132:6:TextLCD_Clear	1
 ../Core/Src/lcd.c:137:6:TextLCD_SetDDRAMAdr	1
-../Core/Src/lcd.c:143:6:TextLCD_Position	1
-../Core/Src/lcd.c:148:6:TextLCD_PutChar	1
-../Core/Src/lcd.c:154:6:TextLCD_PutStr	1
+../Core/Src/lcd.c:143:6:TextLCD_Position	2
+../Core/Src/lcd.c:152:6:TextLCD_PutChar	1
+../Core/Src/lcd.c:158:6:TextLCD_PutStr	2
