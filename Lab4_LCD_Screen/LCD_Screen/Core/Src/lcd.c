@@ -11,7 +11,12 @@
  */
 void My_Delay(uint32_t mysec)
 {
-//	HAL_Delay( 1 + (mysec / 1000) );
+	TIM2->CR1 &= ~(1 << 0);
+	TIM2->CNT = 0;
+	TIM2->CR1 = TIM2->CR1 | 0b1;
+	while (TIM2->CNT < mysec) {
+		//do nothing
+	}
 }
 
 #define BIT_BT   0x08
@@ -93,7 +98,7 @@ void TextLCD_Init(
 	uint8_t data = 0x30; // b# 0011 1000
 	uint8_t ctrl = 0x08;
 
-	My_Delay(70000);
+	//My_Delay(70000);
 
 	TextLCD_SendNibbleWithPulseOnE(hlcd, (data|ctrl) );
 	TextLCD_SendNibbleWithPulseOnE(hlcd, (data|ctrl) );
@@ -109,10 +114,12 @@ void TextLCD_Init(
 
 	TextLCD_SendByte(hlcd, 0x0F, 0); //Display off, Cursor Off, Blink off
 	TextLCD_SendByte(hlcd, 0x01, 0);
-	My_Delay(5000);
+	//My_Delay(5000);
 
 	TextLCD_SendByte(hlcd, 0x06, 0);
 	TextLCD_SendByte(hlcd, 0x0C, 0);
+	uint32_t dly = 5 * 1000 * 1000;
+	//My_Delay(dly);
 }
 
 
@@ -126,31 +133,36 @@ void TextLCD_SetBacklightFlag(GPIO_PinState bt)
 void TextLCD_Home		(TextLCDType * hlcd)
 {
 	TextLCD_SendByte(hlcd, 0x02, 0);
+	My_Delay(2000);
 }
 
 
 void TextLCD_Clear		(TextLCDType * hlcd)
 {
 	TextLCD_SendByte(hlcd, 0x01, 0);
+	My_Delay(2000);
 }
 
 void TextLCD_SetDDRAMAdr(TextLCDType * hlcd, uint8_t adr)
 {
 	TextLCD_SendByte(hlcd, 0x80 + adr, 0);
+	My_Delay(2000);
 }
 
 
 void TextLCD_Position	(TextLCDType * hlcd, int col, int row)
 {
-	if(row == 1)
+	if(row == 0)
 		TextLCD_SetDDRAMAdr(hlcd, 0x00 + col);
 	else
 		TextLCD_SetDDRAMAdr(hlcd, 0x40 + col);
+	My_Delay(2000);
 }
 
 void TextLCD_PutChar	(TextLCDType * hlcd, char c)
 {
 	TextLCD_SendByte(hlcd, c, 1);
+	My_Delay(2000);
 }
 
 
@@ -160,10 +172,8 @@ void TextLCD_PutStr		(TextLCDType * hlcd, char * str)
 	while(str[i] != '\0')
 	{
 		TextLCD_PutChar(hlcd, str[i]);
-		HAL_Delay(200);
 		i++;
 	}
-
 }
 
 

@@ -1,867 +1,29 @@
-12:10:08 **** Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
-arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f411retx.d" -MT"Core/Startup/startup_stm32f411retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f411retx.o" "../Core/Startup/startup_stm32f411retx.s"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
-arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
-../Core/Src/main.c: In function 'cd_set':
-../Core/Src/main.c:89:12: error: 'struct clock_data' has no member named 'hrs'
-arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
-   89 |         pcd->hrs = hrs;
-      |            ^~
-../Core/Src/main.c:90:12: error: 'struct clock_data' has no member named 'min'
-   90 |         pcd->min = min;
-      |            ^~
-../Core/Src/main.c:91:12: error: 'struct clock_data' has no member named 'sec'
-   91 |         pcd->sec = sec;
-      |            ^~
-../Core/Src/main.c: In function 'uart_print_cd':
-../Core/Src/main.c:95:25: error: 'struct clock_data' has no member named 'hrs'
-   95 |         printf("%d", pcd->hrs);
-      |                         ^~
-../Core/Src/main.c:97:25: error: 'struct clock_data' has no member named 'min'
-   97 |         printf("%d", pcd->min);
-      |                         ^~
-../Core/Src/main.c:99:25: error: 'struct clock_data' has no member named 'sec'
-   99 |         printf("%d", pcd->sec);
-      |                         ^~
-../Core/Src/main.c: In function 'cd_tick':
-../Core/Src/main.c:103:12: error: 'struct clock_data' has no member named 'sec'
-  103 |         pcd->sec++;
-      |            ^~
-../Core/Src/main.c:105:16: error: 'struct clock_data' has no member named 'sec'
-  105 |         if (pcd->sec > 59){
-      |                ^~
-../Core/Src/main.c:106:20: error: 'struct clock_data' has no member named 'sec'
-  106 |                 pcd->sec = 0;
-      |                    ^~
-../Core/Src/main.c:107:20: error: 'struct clock_data' has no member named 'min'
-  107 |                 pcd->min++;
-      |                    ^~
-../Core/Src/main.c:109:16: error: 'struct clock_data' has no member named 'min'
-  109 |         if (pcd->min > 59){
-      |                ^~
-../Core/Src/main.c:110:20: error: 'struct clock_data' has no member named 'min'
-  110 |                 pcd->min = 0;
-      |                    ^~
-../Core/Src/main.c:111:20: error: 'struct clock_data' has no member named 'hrs'
-  111 |                 pcd->hrs++;
-      |                    ^~
-../Core/Src/main.c:113:16: error: 'struct clock_data' has no member named 'hrs'
-  113 |         if (pcd->hrs > 23){
-      |                ^~
-../Core/Src/main.c:114:20: error: 'struct clock_data' has no member named 'hrs'
-  114 |                 pcd->hrs = 0;
-      |                    ^~
-make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
-make: *** Waiting for unfinished jobs....
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-12:12:09 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
-../Core/Src/main.c: In function 'cd_set':
-../Core/Src/main.c:89:12: error: 'struct clock_data' has no member named 'hrs'
-   89 |         pcd->hrs = hrs;
-      |            ^~
-../Core/Src/main.c:90:12: error: 'struct clock_data' has no member named 'min'
-   90 |         pcd->min = min;
-      |            ^~
-../Core/Src/main.c:91:12: error: 'struct clock_data' has no member named 'sec'
-   91 |         pcd->sec = sec;
-      |            ^~
-../Core/Src/main.c: In function 'uart_print_cd':
-../Core/Src/main.c:95:25: error: 'struct clock_data' has no member named 'hrs'
-   95 |         printf("%d", pcd->hrs);
-      |                         ^~
-../Core/Src/main.c:97:25: error: 'struct clock_data' has no member named 'min'
-   97 |         printf("%d", pcd->min);
-      |                         ^~
-../Core/Src/main.c:99:25: error: 'struct clock_data' has no member named 'sec'
-   99 |         printf("%d", pcd->sec);
-      |                         ^~
-../Core/Src/main.c: In function 'cd_tick':
-../Core/Src/main.c:103:12: error: 'struct clock_data' has no member named 'sec'
-  103 |         pcd->sec++;
-      |            ^~
-../Core/Src/main.c:105:16: error: 'struct clock_data' has no member named 'sec'
-  105 |         if (pcd->sec > 59){
-      |                ^~
-../Core/Src/main.c:106:20: error: 'struct clock_data' has no member named 'sec'
-  106 |                 pcd->sec = 0;
-      |                    ^~
-../Core/Src/main.c:107:20: error: 'struct clock_data' has no member named 'min'
-  107 |                 pcd->min++;
-      |                    ^~
-../Core/Src/main.c:109:16: error: 'struct clock_data' has no member named 'min'
-  109 |         if (pcd->min > 59){
-      |                ^~
-../Core/Src/main.c:110:20: error: 'struct clock_data' has no member named 'min'
-  110 |                 pcd->min = 0;
-      |                    ^~
-../Core/Src/main.c:111:20: error: 'struct clock_data' has no member named 'hrs'
-  111 |                 pcd->hrs++;
-      |                    ^~
-../Core/Src/main.c:113:16: error: 'struct clock_data' has no member named 'hrs'
-  113 |         if (pcd->hrs > 23){
-      |                ^~
-../Core/Src/main.c:114:20: error: 'struct clock_data' has no member named 'hrs'
-  114 |                 pcd->hrs = 0;
-      |                    ^~
-make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
-make: *** Waiting for unfinished jobs....
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-12:13:21 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  14912	    112	   2048	  17072	   42b0	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-12:13:29 **** Incremental Build of configuration Debug for project LCD_Screen ****
+12:11:43 **** Incremental Build of configuration Debug for project LCD_Screen ****
 make -j8 all 
 arm-none-eabi-size   LCD_Screen.elf 
    text	   data	    bss	    dec	    hex	filename
-  14912	    112	   2048	  17072	   42b0	LCD_Screen.elf
+  13948	     24	   1880	  15852	   3dec	LCD_Screen.elf
 Finished building: default.size.stdout
  
-12:13:50 **** Incremental Build of configuration Debug for project LCD_Screen ****
+12:11:47 **** Incremental Build of configuration Debug for project LCD_Screen ****
 make -j8 all 
 arm-none-eabi-size   LCD_Screen.elf 
    text	   data	    bss	    dec	    hex	filename
-  14912	    112	   2048	  17072	   42b0	LCD_Screen.elf
+  13948	     24	   1880	  15852	   3dec	LCD_Screen.elf
 Finished building: default.size.stdout
  
-12:14:25 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-size   LCD_Screen.elf 
-   text	   data	    bss	    dec	    hex	filename
-  14912	    112	   2048	  17072	   42b0	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-12:27:56 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'uart_print_cd':
-../Core/Src/main.c:98:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
-   98 |         printf("%d", &pcd->hrs);
-      |                 ~^   ~~~~~~~~~
-      |                  |   |
-      |                  int uint8_t * {aka unsigned char *}
-      |                 %hhn
-../Core/Src/main.c:100:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
-  100 |         printf("%d", &pcd->min);
-      |                 ~^   ~~~~~~~~~
-      |                  |   |
-      |                  int uint8_t * {aka unsigned char *}
-      |                 %hhn
-../Core/Src/main.c:102:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
-  102 |         printf("%d", &pcd->sec);
-      |                 ~^   ~~~~~~~~~
-      |                  |   |
-      |                  int uint8_t * {aka unsigned char *}
-      |                 %hhn
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  14908	    112	   2048	  17068	   42ac	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-12:28:37 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  14912	    112	   2048	  17072	   42b0	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-12:29:45 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  14920	    112	   2048	  17080	   42b8	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-12:31:16 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  14916	    112	   2048	  17076	   42b4	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-12:32:34 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  15212	    112	   2048	  17372	   43dc	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-14:27:26 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13396	    100	   2044	  15540	   3cb4	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-14:35:24 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13404	    100	   2044	  15548	   3cbc	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-16:05:04 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
-arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:185:38: error: 'LD2_Port' undeclared (first use in this function)
-  185 |                   HAL_GPIO_TogglePin(LD2_Port, LD2_Pin);
-      |                                      ^~~~~~~~
-../Core/Src/main.c:185:38: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
-  139 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-make: *** Waiting for unfinished jobs....
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:06:58 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
-arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
-arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:185:38: error: 'PA5' undeclared (first use in this function)
-  185 |                   HAL_GPIO_TogglePin(PA5, LD2_Pin);
-      |                                      ^~~
-../Core/Src/main.c:185:38: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
-  139 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-make: *** Waiting for unfinished jobs....
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:07:26 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:185:38: error: 'LD2_Port' undeclared (first use in this function)
-  185 |                   HAL_GPIO_TogglePin(LD2_Port, LD2_Pin);
-      |                                      ^~~~~~~~
-../Core/Src/main.c:185:38: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
-  139 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:11:09 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:183:30: error: 'LD2_Port' undeclared (first use in this function)
-  183 |           HAL_GPIO_TogglePin(LD2_Port, LD2_Pin);
-      |                              ^~~~~~~~
-../Core/Src/main.c:183:30: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
-  139 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:14:25 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:139:46: error: 'LD2_Port' undeclared (first use in this function)
-  139 |                           HAL_GPIO_TogglePin(LD2_Port, LD2_Pin);
-      |                                              ^~~~~~~~
-../Core/Src/main.c:139:46: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c:142:1: warning: control reaches end of non-void function [-Wreturn-type]
-  142 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:15:23 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:183:30: error: 'LD2_Port' undeclared (first use in this function)
-  183 |           HAL_GPIO_TogglePin(LD2_Port, LD2_Pin);
-      |                              ^~~~~~~~
-../Core/Src/main.c:183:30: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
-  139 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:15:37 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:183:30: error: 'LD2_Port' undeclared (first use in this function)
-  183 |           HAL_GPIO_TogglePin(LD2_Port, LD2_Pin);
-      |                              ^~~~~~~~
-../Core/Src/main.c:183:30: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
-  139 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:18:53 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
-  139 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  14476	    100	   2132	  16708	   4144	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-16:21:06 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-size   LCD_Screen.elf 
-   text	   data	    bss	    dec	    hex	filename
-  14476	    100	   2132	  16708	   4144	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-16:39:58 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:173:3: warning: implicit declaration of function 'TextLCD_Init' [-Wimplicit-function-declaration]
-  173 |   TextLCD_Init(&lcd, &hi2c1, 0x4E);
-      |   ^~~~~~~~~~~~
-../Core/Src/main.c:173:17: error: 'lcd' undeclared (first use in this function)
-  173 |   TextLCD_Init(&lcd, &hi2c1, 0x4E);
-      |                 ^~~
-../Core/Src/main.c:173:17: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
-  139 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:55:39 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c:60:1: error: unknown type name 'TextLCDType'
-   60 | TextLCDType lcd;
-      | ^~~~~~~~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:198:11: warning: implicit declaration of function 'Text_LCD_PutChar' [-Wimplicit-function-declaration]
-  198 |           Text_LCD_PutChar(&lcd, c + ASCII_CAPITAL_OFFSET);
-      |           ^~~~~~~~~~~~~~~~
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:142:1: warning: control reaches end of non-void function [-Wreturn-type]
-  142 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:56:11 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:199:11: warning: implicit declaration of function 'Text_LCD_PutChar'; did you mean 'TextLCD_PutChar'? [-Wimplicit-function-declaration]
-  199 |           Text_LCD_PutChar(&lcd, c + ASCII_CAPITAL_OFFSET);
-      |           ^~~~~~~~~~~~~~~~
-      |           TextLCD_PutChar
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:143:1: warning: control reaches end of non-void function [-Wreturn-type]
-  143 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
-C:/work/TMIK13/Lab4_LCD_Screen/LCD_Screen/Debug/../Core/Src/main.c:199: undefined reference to `Text_LCD_PutChar'
-collect2.exe: error: ld returned 1 exit status
-make: *** [makefile:64: LCD_Screen.elf] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-16:56:50 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:143:1: warning: control reaches end of non-void function [-Wreturn-type]
-  143 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  11092	     20	   1804	  12916	   3274	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-17:05:14 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  12976	     24	   1808	  14808	   39d8	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-17:07:09 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:143:1: warning: control reaches end of non-void function [-Wreturn-type]
-  143 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13172	     24	   1808	  15004	   3a9c	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-19:35:48 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/lcd.c: In function 'TextLCD_PutStr':
-../Core/Src/lcd.c:156:32: warning: passing argument 2 of 'TextLCD_SendByte' makes integer from pointer without a cast [-Wint-conversion]
-  156 |         TextLCD_SendByte(hlcd, str, 1);
-      |                                ^~~
-      |                                |
-      |                                char *
-../Core/Src/lcd.c:65:33: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'char *'
-   65 |                 uint8_t         data,
-      |                 ~~~~~~~~~~~~~~~~^~~~
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13204	     24	   1808	  15036	   3abc	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-19:36:35 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-size   LCD_Screen.elf 
-   text	   data	    bss	    dec	    hex	filename
-  13204	     24	   1808	  15036	   3abc	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-19:49:07 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/lcd.c: In function 'TextLCD_PutStr':
-../Core/Src/lcd.c:157:25: error: 'null' undeclared (first use in this function)
-  157 |         while(str[i] != null)
-      |                         ^~~~
-../Core/Src/lcd.c:157:25: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/lcd.c:159:33: warning: passing argument 1 of 'TextLCD_PutChar' from incompatible pointer type [-Wincompatible-pointer-types]
-  159 |                 TextLCD_PutChar(&hlcd, &str[i]);
-      |                                 ^~~~~
-      |                                 |
-      |                                 TextLCDType **
-../Core/Src/lcd.c:148:40: note: expected 'TextLCDType *' but argument is of type 'TextLCDType **'
-  148 | void TextLCD_PutChar    (TextLCDType * hlcd, char c)
-      |                          ~~~~~~~~~~~~~~^~~~
-../Core/Src/lcd.c:159:40: warning: passing argument 2 of 'TextLCD_PutChar' makes integer from pointer without a cast [-Wint-conversion]
-  159 |                 TextLCD_PutChar(&hlcd, &str[i]);
-      |                                        ^~~~~~~
-      |                                        |
-      |                                        char *
-../Core/Src/lcd.c:148:51: note: expected 'char' but argument is of type 'char *'
-  148 | void TextLCD_PutChar    (TextLCDType * hlcd, char c)
-      |                                              ~~~~~^
-make: *** [Core/Src/subdir.mk:37: Core/Src/lcd.o] Error 1
-make: *** Waiting for unfinished jobs....
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-19:49:27 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-../Core/Src/lcd.c: In function 'TextLCD_PutStr':
-../Core/Src/lcd.c:159:33: warning: passing argument 1 of 'TextLCD_PutChar' from incompatible pointer type [-Wincompatible-pointer-types]
-  159 |                 TextLCD_PutChar(&hlcd, &str[i]);
-      |                                 ^~~~~
-      |                                 |
-      |                                 TextLCDType **
-../Core/Src/lcd.c:148:40: note: expected 'TextLCDType *' but argument is of type 'TextLCDType **'
-  148 | void TextLCD_PutChar    (TextLCDType * hlcd, char c)
-      |                          ~~~~~~~~~~~~~~^~~~
-../Core/Src/lcd.c:159:40: warning: passing argument 2 of 'TextLCD_PutChar' makes integer from pointer without a cast [-Wint-conversion]
-  159 |                 TextLCD_PutChar(&hlcd, &str[i]);
-      |                                        ^~~~~~~
-      |                                        |
-      |                                        char *
-../Core/Src/lcd.c:148:51: note: expected 'char' but argument is of type 'char *'
-  148 | void TextLCD_PutChar    (TextLCDType * hlcd, char c)
-      |                                              ~~~~~^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13308	     24	   1808	  15140	   3b24	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-19:49:42 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-../Core/Src/lcd.c: In function 'TextLCD_PutStr':
-../Core/Src/lcd.c:159:33: warning: passing argument 1 of 'TextLCD_PutChar' from incompatible pointer type [-Wincompatible-pointer-types]
-  159 |                 TextLCD_PutChar(&hlcd, str[i]);
-      |                                 ^~~~~
-      |                                 |
-      |                                 TextLCDType **
-../Core/Src/lcd.c:148:40: note: expected 'TextLCDType *' but argument is of type 'TextLCDType **'
-  148 | void TextLCD_PutChar    (TextLCDType * hlcd, char c)
-      |                          ~~~~~~~~~~~~~~^~~~
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13308	     24	   1808	  15140	   3b24	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-19:50:51 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-../Core/Src/lcd.c: In function 'TextLCD_PutStr':
-../Core/Src/lcd.c:159:33: warning: passing argument 1 of 'TextLCD_PutChar' from incompatible pointer type [-Wincompatible-pointer-types]
-  159 |                 TextLCD_PutChar(&hlcd, &str[i]);
-      |                                 ^~~~~
-      |                                 |
-      |                                 TextLCDType **
-../Core/Src/lcd.c:148:40: note: expected 'TextLCDType *' but argument is of type 'TextLCDType **'
-  148 | void TextLCD_PutChar    (TextLCDType * hlcd, char c)
-      |                          ~~~~~~~~~~~~~~^~~~
-../Core/Src/lcd.c:159:40: warning: passing argument 2 of 'TextLCD_PutChar' makes integer from pointer without a cast [-Wint-conversion]
-  159 |                 TextLCD_PutChar(&hlcd, &str[i]);
-      |                                        ^~~~~~~
-      |                                        |
-      |                                        char *
-../Core/Src/lcd.c:148:51: note: expected 'char' but argument is of type 'char *'
-  148 | void TextLCD_PutChar    (TextLCDType * hlcd, char c)
-      |                                              ~~~~~^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13308	     24	   1808	  15140	   3b24	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-19:51:42 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-../Core/Src/lcd.c: In function 'TextLCD_PutStr':
-../Core/Src/lcd.c:159:33: warning: passing argument 1 of 'TextLCD_PutChar' from incompatible pointer type [-Wincompatible-pointer-types]
-  159 |                 TextLCD_PutChar(&hlcd, str[i]);
-      |                                 ^~~~~
-      |                                 |
-      |                                 TextLCDType **
-../Core/Src/lcd.c:148:40: note: expected 'TextLCDType *' but argument is of type 'TextLCDType **'
-  148 | void TextLCD_PutChar    (TextLCDType * hlcd, char c)
-      |                          ~~~~~~~~~~~~~~^~~~
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13308	     24	   1808	  15140	   3b24	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-19:52:25 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13304	     24	   1808	  15136	   3b20	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-19:55:16 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13384	     24	   1808	  15216	   3b70	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-19:56:07 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13384	     24	   1808	  15216	   3b70	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-19:57:25 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13384	     24	   1808	  15216	   3b70	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-20:17:44 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13420	     24	   1808	  15252	   3b94	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-20:32:11 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13236	     24	   1808	  15068	   3adc	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-21:04:13 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/lcd.c: In function 'TextLCD_SetDDRAMAdr':
-../Core/Src/lcd.c:139:32: error: expected expression before ')' token
-  139 |         TextLCD_SendByte(hlcd, )
-      |                                ^
-../Core/Src/lcd.c:139:9: error: too few arguments to function 'TextLCD_SendByte'
-  139 |         TextLCD_SendByte(hlcd, )
-      |         ^~~~~~~~~~~~~~~~
-../Core/Src/lcd.c:63:6: note: declared here
-   63 | void TextLCD_SendByte(
-      |      ^~~~~~~~~~~~~~~~
-make: *** [Core/Src/subdir.mk:37: Core/Src/lcd.o] Error 1
-make: *** Waiting for unfinished jobs....
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(hlcd, 0x3C);
-      |   ^~~~~~~~~~~~~~~~
-      |   TextLCD_Init
-../Core/Src/main.c:194:20: error: 'hlcd' undeclared (first use in this function); did you mean 'lcd'?
-  194 |   TextLCD_SendByte(hlcd, 0x3C);
-      |                    ^~~~
-      |                    lcd
-../Core/Src/main.c:194:20: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-21:04:23 **** Incremental Build of configuration Debug for project LCD_Screen ****
+12:13:01 **** Incremental Build of configuration Debug for project LCD_Screen ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(hlcd, 0x3C);
-      |   ^~~~~~~~~~~~~~~~
-      |   TextLCD_Init
-../Core/Src/main.c:194:20: error: 'hlcd' undeclared (first use in this function); did you mean 'lcd'?
-  194 |   TextLCD_SendByte(hlcd, 0x3C);
-      |                    ^~~~
-      |                    lcd
-../Core/Src/main.c:194:20: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
-make: *** Waiting for unfinished jobs....
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
-21:04:38 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(&lcd, 0x3C);
+../Core/Src/main.c:197:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
+  197 |   TextLCD_SendByte(&lcd, 0x0F, 0);
       |   ^~~~~~~~~~~~~~~~
       |   TextLCD_Init
 ../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
+../Core/Src/main.c:150:1: warning: control reaches end of non-void function [-Wreturn-type]
+  150 | }
       | ^
 arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: LCD_Screen.elf
@@ -869,115 +31,79 @@ Finished building target: LCD_Screen.elf
 arm-none-eabi-size   LCD_Screen.elf 
 arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
    text	   data	    bss	    dec	    hex	filename
-  13244	     24	   1808	  15076	   3ae4	LCD_Screen.elf
+  13964	     24	   1880	  15868	   3dfc	LCD_Screen.elf
 Finished building: default.size.stdout
  
 Finished building: LCD_Screen.list
  
-21:07:30 **** Incremental Build of configuration Debug for project LCD_Screen ****
+12:13:39 **** Incremental Build of configuration Debug for project LCD_Screen ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(&lcd, 0x3C, 0);
-      |   ^~~~~~~~~~~~~~~~
-      |   TextLCD_Init
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
 arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
    text	   data	    bss	    dec	    hex	filename
-  13248	     24	   1808	  15080	   3ae8	LCD_Screen.elf
+  13964	     24	   1880	  15868	   3dfc	LCD_Screen.elf
 Finished building: default.size.stdout
  
-Finished building: LCD_Screen.list
- 
-21:07:52 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(&lcd, 0x3C, 1);
-      |   ^~~~~~~~~~~~~~~~
-      |   TextLCD_Init
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13248	     24	   1808	  15080	   3ae8	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-21:08:17 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(&lcd, 0x3C, 0);
-      |   ^~~~~~~~~~~~~~~~
-      |   TextLCD_Init
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13248	     24	   1808	  15080	   3ae8	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-21:09:22 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(&lcd, 0x0F, 0);
-      |   ^~~~~~~~~~~~~~~~
-      |   TextLCD_Init
-../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
-      | ^
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13248	     24	   1808	  15080	   3ae8	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-21:21:34 **** Incremental Build of configuration Debug for project LCD_Screen ****
+12:14:58 **** Incremental Build of configuration Debug for project LCD_Screen ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
+../Core/Src/lcd.c: In function 'TextLCD_Init':
+../Core/Src/lcd.c:121:18: warning: unused variable 'dly' [-Wunused-variable]
+  121 |         uint32_t dly = 5 * 1000 * 1000;
+      |                  ^~~
+arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCD_Screen.elf
+ 
+arm-none-eabi-size   LCD_Screen.elf 
+arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
+   text	   data	    bss	    dec	    hex	filename
+  13940	     24	   1880	  15844	   3de4	LCD_Screen.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCD_Screen.list
+ 
+12:15:56 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
+arm-none-eabi-size   LCD_Screen.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13940	     24	   1880	  15844	   3de4	LCD_Screen.elf
+Finished building: default.size.stdout
+ 
+12:16:14 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
+arm-none-eabi-size   LCD_Screen.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13940	     24	   1880	  15844	   3de4	LCD_Screen.elf
+Finished building: default.size.stdout
+ 
+12:17:23 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
+../Core/Src/lcd.c: In function 'TextLCD_Init':
+../Core/Src/lcd.c:121:18: warning: unused variable 'dly' [-Wunused-variable]
+  121 |         uint32_t dly = 5 * 1000 * 1000;
+      |                  ^~~
+arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCD_Screen.elf
+ 
+arm-none-eabi-size   LCD_Screen.elf 
+arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
+   text	   data	    bss	    dec	    hex	filename
+  13936	     24	   1880	  15840	   3de0	LCD_Screen.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCD_Screen.list
+ 
+12:22:35 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(&lcd, 0x0F, 0);
+../Core/Src/main.c:197:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
+  197 |   TextLCD_SendByte(&lcd, 0x0F, 0);
       |   ^~~~~~~~~~~~~~~~
       |   TextLCD_Init
 ../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
+../Core/Src/main.c:150:1: warning: control reaches end of non-void function [-Wreturn-type]
+  150 | }
       | ^
 arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: LCD_Screen.elf
@@ -985,36 +111,22 @@ Finished building target: LCD_Screen.elf
 arm-none-eabi-size   LCD_Screen.elf 
 arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
    text	   data	    bss	    dec	    hex	filename
-  13332	     24	   1808	  15164	   3b3c	LCD_Screen.elf
+  14072	     24	   1880	  15976	   3e68	LCD_Screen.elf
 Finished building: default.size.stdout
  
 Finished building: LCD_Screen.list
  
-21:22:32 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13340	     24	   1808	  15172	   3b44	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-21:23:29 **** Incremental Build of configuration Debug for project LCD_Screen ****
+12:23:34 **** Incremental Build of configuration Debug for project LCD_Screen ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(&lcd, 0x0F, 0);
+../Core/Src/main.c:197:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
+  197 |   TextLCD_SendByte(&lcd, 0x0F, 0);
       |   ^~~~~~~~~~~~~~~~
       |   TextLCD_Init
 ../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
+../Core/Src/main.c:150:1: warning: control reaches end of non-void function [-Wreturn-type]
+  150 | }
       | ^
 arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: LCD_Screen.elf
@@ -1022,50 +134,66 @@ Finished building target: LCD_Screen.elf
 arm-none-eabi-size   LCD_Screen.elf 
 arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
    text	   data	    bss	    dec	    hex	filename
-  13340	     24	   1808	  15172	   3b44	LCD_Screen.elf
+  14060	     24	   1880	  15964	   3e5c	LCD_Screen.elf
 Finished building: default.size.stdout
  
 Finished building: LCD_Screen.list
  
-21:25:50 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13348	     24	   1808	  15180	   3b4c	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-21:26:32 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13352	     24	   1808	  15184	   3b50	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-21:26:51 **** Incremental Build of configuration Debug for project LCD_Screen ****
+12:30:57 **** Incremental Build of configuration Debug for project LCD_Screen ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(&lcd, 0x0F, 0);
+../Core/Src/main.c:197:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
+  197 |   TextLCD_SendByte(&lcd, 0x0F, 0);
       |   ^~~~~~~~~~~~~~~~
       |   TextLCD_Init
+../Core/Src/main.c:203:55: error: 'pcd' undeclared (first use in this function); did you mean 'lcd'?
+  203 |           str_len = sprintf(str, "%02d:%02d:%02d \r", pcd->hrs, pcd->min, pcd->sec);
+      |                                                       ^~~
+      |                                                       lcd
+../Core/Src/main.c:203:55: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:201:20: warning: variable 'str_len' set but not used [-Wunused-but-set-variable]
+  201 |           uint16_t str_len;
+      |                    ^~~~~~~
+../Core/Src/main.c:196:14: warning: unused variable 'LETTERS_TOTAL' [-Wunused-variable]
+  196 |   const char LETTERS_TOTAL = 'Z' - 'A';
+      |              ^~~~~~~~~~~~~
+../Core/Src/main.c:195:14: warning: unused variable 'ASCII_CAPITAL_OFFSET' [-Wunused-variable]
+  195 |   const char ASCII_CAPITAL_OFFSET = 'A';
+      |              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:194:8: warning: unused variable 'c' [-Wunused-variable]
+  194 |   char c = 0;
+      |        ^
 ../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
+../Core/Src/main.c:150:1: warning: control reaches end of non-void function [-Wreturn-type]
+  150 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+12:34:43 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'convert_time_to_str':
+../Core/Src/main.c:155:18: warning: variable 'str_len' set but not used [-Wunused-but-set-variable]
+  155 |         uint16_t str_len;
+      |                  ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:204:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
+  204 |   TextLCD_SendByte(&lcd, 0x0F, 0);
+      |   ^~~~~~~~~~~~~~~~
+      |   TextLCD_Init
+../Core/Src/main.c:203:14: warning: unused variable 'LETTERS_TOTAL' [-Wunused-variable]
+  203 |   const char LETTERS_TOTAL = 'Z' - 'A';
+      |              ^~~~~~~~~~~~~
+../Core/Src/main.c:202:14: warning: unused variable 'ASCII_CAPITAL_OFFSET' [-Wunused-variable]
+  202 |   const char ASCII_CAPITAL_OFFSET = 'A';
+      |              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:201:8: warning: unused variable 'c' [-Wunused-variable]
+  201 |   char c = 0;
+      |        ^
+../Core/Src/main.c: In function 'wait_for_button_press':
+../Core/Src/main.c:151:1: warning: control reaches end of non-void function [-Wreturn-type]
+  151 | }
       | ^
 arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: LCD_Screen.elf
@@ -1073,44 +201,42 @@ Finished building target: LCD_Screen.elf
 arm-none-eabi-size   LCD_Screen.elf 
 arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
    text	   data	    bss	    dec	    hex	filename
-  13352	     24	   1808	  15184	   3b50	LCD_Screen.elf
+  14000	     24	   1928	  15952	   3e50	LCD_Screen.elf
 Finished building: default.size.stdout
  
 Finished building: LCD_Screen.list
  
-21:27:16 **** Incremental Build of configuration Debug for project LCD_Screen ****
+12:37:05 **** Incremental Build of configuration Debug for project LCD_Screen ****
 make -j8 all 
 arm-none-eabi-size   LCD_Screen.elf 
    text	   data	    bss	    dec	    hex	filename
-  13352	     24	   1808	  15184	   3b50	LCD_Screen.elf
+  14000	     24	   1928	  15952	   3e50	LCD_Screen.elf
 Finished building: default.size.stdout
  
-21:27:51 **** Incremental Build of configuration Debug for project LCD_Screen ****
+12:39:48 **** Incremental Build of configuration Debug for project LCD_Screen ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
-arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LCD_Screen.elf
- 
-arm-none-eabi-size   LCD_Screen.elf 
-arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
-   text	   data	    bss	    dec	    hex	filename
-  13352	     24	   1808	  15184	   3b50	LCD_Screen.elf
-Finished building: default.size.stdout
- 
-Finished building: LCD_Screen.list
- 
-21:30:08 **** Incremental Build of configuration Debug for project LCD_Screen ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'convert_time_to_str':
+../Core/Src/main.c:155:18: warning: variable 'str_len' set but not used [-Wunused-but-set-variable]
+  155 |         uint16_t str_len;
+      |                  ^~~~~~~
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:194:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
-  194 |   TextLCD_SendByte(&lcd, 0x0F, 0);
+../Core/Src/main.c:204:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
+  204 |   TextLCD_SendByte(&lcd, 0x0F, 0);
       |   ^~~~~~~~~~~~~~~~
       |   TextLCD_Init
+../Core/Src/main.c:203:14: warning: unused variable 'LETTERS_TOTAL' [-Wunused-variable]
+  203 |   const char LETTERS_TOTAL = 'Z' - 'A';
+      |              ^~~~~~~~~~~~~
+../Core/Src/main.c:202:14: warning: unused variable 'ASCII_CAPITAL_OFFSET' [-Wunused-variable]
+  202 |   const char ASCII_CAPITAL_OFFSET = 'A';
+      |              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:201:8: warning: unused variable 'c' [-Wunused-variable]
+  201 |   char c = 0;
+      |        ^
 ../Core/Src/main.c: In function 'wait_for_button_press':
-../Core/Src/main.c:148:1: warning: control reaches end of non-void function [-Wreturn-type]
-  148 | }
+../Core/Src/main.c:151:1: warning: control reaches end of non-void function [-Wreturn-type]
+  151 | }
       | ^
 arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: LCD_Screen.elf
@@ -1118,8 +244,149 @@ Finished building target: LCD_Screen.elf
 arm-none-eabi-size   LCD_Screen.elf 
 arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
    text	   data	    bss	    dec	    hex	filename
-  13348	     24	   1808	  15180	   3b4c	LCD_Screen.elf
+  13864	     24	   1928	  15816	   3dc8	LCD_Screen.elf
 Finished building: default.size.stdout
  
 Finished building: LCD_Screen.list
+ 
+12:43:58 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'convert_time_to_str':
+../Core/Src/main.c:155:18: warning: variable 'str_len' set but not used [-Wunused-but-set-variable]
+  155 |         uint16_t str_len;
+      |                  ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:204:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
+  204 |   TextLCD_SendByte(&lcd, 0x0F, 0);
+      |   ^~~~~~~~~~~~~~~~
+      |   TextLCD_Init
+../Core/Src/main.c:208:31: error: expected expression before 'struct'
+  208 |           convert_time_to_str(struct clock_data * pcd);
+      |                               ^~~~~~
+../Core/Src/main.c:203:14: warning: unused variable 'LETTERS_TOTAL' [-Wunused-variable]
+  203 |   const char LETTERS_TOTAL = 'Z' - 'A';
+      |              ^~~~~~~~~~~~~
+../Core/Src/main.c:202:14: warning: unused variable 'ASCII_CAPITAL_OFFSET' [-Wunused-variable]
+  202 |   const char ASCII_CAPITAL_OFFSET = 'A';
+      |              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:201:8: warning: unused variable 'c' [-Wunused-variable]
+  201 |   char c = 0;
+      |        ^
+../Core/Src/main.c: In function 'wait_for_button_press':
+../Core/Src/main.c:151:1: warning: control reaches end of non-void function [-Wreturn-type]
+  151 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+12:44:37 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'convert_time_to_str':
+../Core/Src/main.c:155:18: warning: variable 'str_len' set but not used [-Wunused-but-set-variable]
+  155 |         uint16_t str_len;
+      |                  ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:204:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
+  204 |   TextLCD_SendByte(&lcd, 0x0F, 0);
+      |   ^~~~~~~~~~~~~~~~
+      |   TextLCD_Init
+../Core/Src/main.c:203:14: warning: unused variable 'LETTERS_TOTAL' [-Wunused-variable]
+  203 |   const char LETTERS_TOTAL = 'Z' - 'A';
+      |              ^~~~~~~~~~~~~
+../Core/Src/main.c:202:14: warning: unused variable 'ASCII_CAPITAL_OFFSET' [-Wunused-variable]
+  202 |   const char ASCII_CAPITAL_OFFSET = 'A';
+      |              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:201:8: warning: unused variable 'c' [-Wunused-variable]
+  201 |   char c = 0;
+      |        ^
+../Core/Src/main.c: In function 'wait_for_button_press':
+../Core/Src/main.c:151:1: warning: control reaches end of non-void function [-Wreturn-type]
+  151 | }
+      | ^
+arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCD_Screen.elf
+ 
+arm-none-eabi-size   LCD_Screen.elf 
+arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
+   text	   data	    bss	    dec	    hex	filename
+  16572	    104	   2256	  18932	   49f4	LCD_Screen.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCD_Screen.list
+ 
+12:46:25 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'convert_time_to_str':
+../Core/Src/main.c:155:18: warning: variable 'str_len' set but not used [-Wunused-but-set-variable]
+  155 |         uint16_t str_len;
+      |                  ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:204:3: warning: implicit declaration of function 'TextLCD_SendByte'; did you mean 'TextLCD_Init'? [-Wimplicit-function-declaration]
+  204 |   TextLCD_SendByte(&lcd, 0x0F, 0);
+      |   ^~~~~~~~~~~~~~~~
+      |   TextLCD_Init
+../Core/Src/main.c:203:14: warning: unused variable 'LETTERS_TOTAL' [-Wunused-variable]
+  203 |   const char LETTERS_TOTAL = 'Z' - 'A';
+      |              ^~~~~~~~~~~~~
+../Core/Src/main.c:202:14: warning: unused variable 'ASCII_CAPITAL_OFFSET' [-Wunused-variable]
+  202 |   const char ASCII_CAPITAL_OFFSET = 'A';
+      |              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:201:8: warning: unused variable 'c' [-Wunused-variable]
+  201 |   char c = 0;
+      |        ^
+../Core/Src/main.c: In function 'wait_for_button_press':
+../Core/Src/main.c:151:1: warning: control reaches end of non-void function [-Wreturn-type]
+  151 | }
+      | ^
+arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCD_Screen.elf
+ 
+arm-none-eabi-size   LCD_Screen.elf 
+arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
+   text	   data	    bss	    dec	    hex	filename
+  16580	    104	   2256	  18940	   49fc	LCD_Screen.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCD_Screen.list
+ 
+12:47:55 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'convert_time_to_str':
+../Core/Src/main.c:155:18: warning: variable 'str_len' set but not used [-Wunused-but-set-variable]
+  155 |         uint16_t str_len;
+      |                  ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:203:14: warning: unused variable 'LETTERS_TOTAL' [-Wunused-variable]
+  203 |   const char LETTERS_TOTAL = 'Z' - 'A';
+      |              ^~~~~~~~~~~~~
+../Core/Src/main.c:202:14: warning: unused variable 'ASCII_CAPITAL_OFFSET' [-Wunused-variable]
+  202 |   const char ASCII_CAPITAL_OFFSET = 'A';
+      |              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:201:8: warning: unused variable 'c' [-Wunused-variable]
+  201 |   char c = 0;
+      |        ^
+../Core/Src/main.c: In function 'wait_for_button_press':
+../Core/Src/main.c:151:1: warning: control reaches end of non-void function [-Wreturn-type]
+  151 | }
+      | ^
+arm-none-eabi-gcc -o "LCD_Screen.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab4_LCD_Screen\LCD_Screen\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_Screen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCD_Screen.elf
+ 
+arm-none-eabi-size   LCD_Screen.elf 
+arm-none-eabi-objdump -h -S  LCD_Screen.elf  > "LCD_Screen.list"
+   text	   data	    bss	    dec	    hex	filename
+  16572	    104	   2256	  18932	   49f4	LCD_Screen.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCD_Screen.list
+ 
+12:48:05 **** Incremental Build of configuration Debug for project LCD_Screen ****
+make -j8 all 
+arm-none-eabi-size   LCD_Screen.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16572	    104	   2256	  18932	   49f4	LCD_Screen.elf
+Finished building: default.size.stdout
  
