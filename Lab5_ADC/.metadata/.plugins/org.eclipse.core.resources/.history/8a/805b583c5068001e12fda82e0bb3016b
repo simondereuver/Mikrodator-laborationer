@@ -208,7 +208,7 @@ int main(void)
 		  TextLCD_Position(&lcd, 10, 0);
 		  convert_celcsius_to_str(lm35_to_celcsius(adc_buffer[LM35_IX]));
 		  TextLCD_PutStr(&lcd, str);
-		  TextLCD_PutChar(&lcd, 176);
+		  TextLCD_PutChar(&lcd, 248);
 		  TextLCD_PutChar(&lcd, 'C');
 
 		  //light value

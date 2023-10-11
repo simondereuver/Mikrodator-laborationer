@@ -147,3 +147,27 @@ org.eclipse.core.runtime.CoreException: Setup exceptions
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-10-11 12:34:59.975
 !MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-10-11 16:21:46.665
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 92 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-10-11 16:21:46.667
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-10-11 16:21:46.669
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 92 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-10-11 16:21:46.669
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-10-11 18:13:52.588
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 113 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-10-11 18:13:52.589
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-10-11 18:13:52.590
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 113 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-10-11 18:13:52.590
+!MESSAGE Existing sessions are:

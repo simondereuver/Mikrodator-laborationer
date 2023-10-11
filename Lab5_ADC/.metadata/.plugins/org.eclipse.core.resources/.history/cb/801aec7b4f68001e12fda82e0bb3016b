@@ -76,7 +76,6 @@ float normalize_12bit(uint16_t x);
 float lm35_to_celcsius(uint16_t lm35_reading);
 float light_sensor(uint16_t light_reading);
 void convert_light_to_str(float numbah);
-void convert_celcsius_to_str(float numbah);
 // void HAL_ADC_ConvCpltCallback( ADC_HandleTypeDef *hadc);
 /* USER CODE END PFP */
 
@@ -98,11 +97,6 @@ void convert_time_to_str(float numbah)
 void convert_light_to_str(float numbah)
 {
 	sprintf(str, "%0.3f", numbah);
-}
-
-void convert_celcsius_to_str(float numbah)
-{
-	sprintf(str, "%0.1f", numbah);
 }
 
 float normalize_12bit(uint16_t x)
@@ -206,9 +200,8 @@ int main(void)
 
 		  //temperature value
 		  TextLCD_Position(&lcd, 10, 0);
-		  convert_celcsius_to_str(lm35_to_celcsius(adc_buffer[LM35_IX]));
+		  convert_time_to_str(lm35_to_celcsius(adc_buffer[LM35_IX]));
 		  TextLCD_PutStr(&lcd, str);
-		  TextLCD_PutChar(&lcd, 176);
 		  TextLCD_PutChar(&lcd, 'C');
 
 		  //light value

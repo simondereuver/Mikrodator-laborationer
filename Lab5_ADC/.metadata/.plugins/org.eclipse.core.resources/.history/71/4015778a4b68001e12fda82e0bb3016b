@@ -52,13 +52,12 @@ UART_HandleTypeDef huart2;
 /* USER CODE BEGIN PV */
 char str[41] = { '\0'};
 TextLCDType lcd;
-#define ADC_BUF_SIZE 4
+#define ADC_BUF_SIZE 3 //ändra till 4 när du lägger till mer komponenter
 uint16_t adc_buffer[ADC_BUF_SIZE];
 int adc_buf_ix = 0;
 #define JOY_X_IX 0
 #define JOY_Y_IX 1
-#define LM35_IX 2
-#define LIGHT_IX 3
+#define LM35_IX 2 //used for later aligator
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -74,9 +73,6 @@ void convert_time_to_str(float numbah);
 float normalize_12bit_posneg(uint16_t x);
 float normalize_12bit(uint16_t x);
 float lm35_to_celcsius(uint16_t lm35_reading);
-float light_sensor(uint16_t light_reading);
-void convert_light_to_str(float numbah);
-void convert_celcsius_to_str(float numbah);
 // void HAL_ADC_ConvCpltCallback( ADC_HandleTypeDef *hadc);
 /* USER CODE END PFP */
 
@@ -95,15 +91,6 @@ void convert_time_to_str(float numbah)
 {
 	sprintf(str, "%0.2f", numbah);
 }
-void convert_light_to_str(float numbah)
-{
-	sprintf(str, "%0.3f", numbah);
-}
-
-void convert_celcsius_to_str(float numbah)
-{
-	sprintf(str, "%0.1f", numbah);
-}
 
 float normalize_12bit(uint16_t x)
 {
@@ -115,11 +102,7 @@ float normalize_12bit_posneg(uint16_t x)
 }
 float lm35_to_celcsius(uint16_t lm35_reading)
 {
-	return (lm35_reading / 100.0);
-}
-float light_sensor(uint16_t light_reading)
-{
-	return (light_reading / 100.0);
+	return (lm35_reading * 1.0);
 }
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
 {
@@ -186,7 +169,6 @@ int main(void)
 	  //HAL_Delay(20);
 	  if (adc_buf_ix == ADC_BUF_SIZE)
 	  {
-		  //x value
 		  TextLCD_Position(&lcd, 0, 0);
 		  convert_time_to_str(normalize_12bit_posneg(adc_buffer[JOY_X_IX]));
 		  if(normalize_12bit_posneg(adc_buffer[JOY_X_IX]) >= 0){
@@ -194,8 +176,6 @@ int main(void)
 		  }
 		  TextLCD_PutStr(&lcd, str);
 		  TextLCD_PutChar(&lcd, 'x');
-
-		  //y value
 		  TextLCD_Position(&lcd, 0, 1);
 		  convert_time_to_str(normalize_12bit_posneg(adc_buffer[JOY_Y_IX]));
 		  if(normalize_12bit_posneg(adc_buffer[JOY_Y_IX]) >= 0){
@@ -204,21 +184,15 @@ int main(void)
 		  TextLCD_PutStr(&lcd, str);
 		  TextLCD_PutChar(&lcd, 'y');
 
-		  //temperature value
-		  TextLCD_Position(&lcd, 10, 0);
-		  convert_celcsius_to_str(lm35_to_celcsius(adc_buffer[LM35_IX]));
-		  TextLCD_PutStr(&lcd, str);
-		  TextLCD_PutChar(&lcd, 176);
-		  TextLCD_PutChar(&lcd, 'C');
 
-		  //light value
-		  TextLCD_Position(&lcd, 10, 1);
-		  convert_light_to_str(normalize_12bit(adc_buffer[LIGHT_IX]));
-		  //if(normalize_12bit(adc_buffer[LIGHT_IX]) >= 0){
-		//	  TextLCD_PutChar(&lcd, '+');
-		  //}
+		  TextLCD_Position(&lcd, 9, 0);
+		  convert_time_to_str(lm35_to_celcsius(adc_buffer[LM35_IX]));
+		  if(lm35_to_celcsius(adc_buffer[JOY_X_IX]) >= 0){
+			  TextLCD_PutChar(&lcd, '+');
+		  }
 		  TextLCD_PutStr(&lcd, str);
-		  TextLCD_PutChar(&lcd, 'L');
+		  TextLCD_PutChar(&lcd, 'C');
+		  //TextLCD_Clear(&lcd);
 	  }
 
 
@@ -312,7 +286,7 @@ static void MX_ADC1_Init(void)
   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc1.Init.NbrOfConversion = 4;
+  hadc1.Init.NbrOfConversion = 3;
   hadc1.Init.DMAContinuousRequests = DISABLE;
   hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   if (HAL_ADC_Init(&hadc1) != HAL_OK)
@@ -343,15 +317,6 @@ static void MX_ADC1_Init(void)
   */
   sConfig.Channel = ADC_CHANNEL_4;
   sConfig.Rank = 3;
-  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-
-  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
-  */
-  sConfig.Channel = ADC_CHANNEL_6;
-  sConfig.Rank = 4;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
