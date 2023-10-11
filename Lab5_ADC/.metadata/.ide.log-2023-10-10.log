@@ -1,0 +1,1068 @@
+2023-10-10 12:17:45,062 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 595745752 Bytes (1073741824)
+2023-10-10 12:17:47,137 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 556759712 Bytes (1073741824)
+2023-10-10 12:17:49,513 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 558021200 Bytes (1073741824)
+2023-10-10 12:17:50,082 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-10 12:17:50,082 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-10 12:17:50,082 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-10 12:17:50,082 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-10 12:17:50,084 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-10 12:17:50,084 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-10 12:17:50,084 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-10 12:17:50,084 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-10 12:17:50,086 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-10 12:17:50,125 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-10 12:17:50,125 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-10 12:17:50,903 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp_save
+2023-10-10 12:17:51,198 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp
+2023-10-10 12:17:51,277 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp_save
+2023-10-10 12:17:51,547 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp
+2023-10-10 12:17:52,314 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c_save
+2023-10-10 12:17:53,062 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c
+2023-10-10 12:17:53,078 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h_save
+2023-10-10 12:17:53,214 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h
+2023-10-10 12:17:53,266 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-10 12:17:53,933 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c
+2023-10-10 12:17:53,973 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp_save
+2023-10-10 12:17:54,081 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp
+2023-10-10 12:17:54,125 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-10 12:17:54,347 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-10 12:17:54,405 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-10-10 12:17:54,407 [WARN] CodeGenerator:3760 - IP not found : null
+2023-10-10 12:17:54,454 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h_save
+2023-10-10 12:17:54,643 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h
+2023-10-10 12:17:54,682 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c_save
+2023-10-10 12:17:54,946 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c
+2023-10-10 12:17:59,764 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 4030mS.
+2023-10-10 12:17:59,766 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-10 12:18:00,013 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-10-10 12:18:03,366 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 3600mS.
+2023-10-10 12:18:03,367 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-10 12:18:03,373 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-10 12:32:35,492 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-10 12:32:35,574 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,574 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,591 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:35,621 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,621 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:35,621 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,544 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-10 12:32:38,606 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,606 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,609 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,609 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,609 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,609 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,609 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,609 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,610 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,611 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,611 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,611 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,611 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,611 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,611 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,611 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,611 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:38,641 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,641 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 12:32:38,641 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 12:32:40,636 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 657270384 Bytes (1073741824)
+2023-10-10 12:32:42,969 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 684533360 Bytes (1073741824)
+2023-10-10 12:32:46,355 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 756358768 Bytes (1073741824)
+2023-10-10 12:32:46,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-10 12:32:46,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-10 12:32:46,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-10 12:32:46,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-10 12:32:46,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-10 12:32:46,747 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-10 12:32:46,748 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-10 12:32:46,748 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-10 12:32:46,749 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-10 12:32:46,758 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-10 12:32:46,758 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-10 12:32:47,030 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp_save
+2023-10-10 12:32:47,226 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp
+2023-10-10 12:32:47,300 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp_save
+2023-10-10 12:32:47,589 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp
+2023-10-10 12:32:48,152 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c_save
+2023-10-10 12:32:48,435 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c
+2023-10-10 12:32:48,452 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h_save
+2023-10-10 12:32:48,594 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h
+2023-10-10 12:32:48,640 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-10 12:32:48,860 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c
+2023-10-10 12:32:48,893 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp_save
+2023-10-10 12:32:49,019 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp
+2023-10-10 12:32:49,070 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-10 12:32:49,258 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-10 12:32:49,363 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-10-10 12:32:49,364 [WARN] CodeGenerator:3760 - IP not found : null
+2023-10-10 12:32:49,409 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h_save
+2023-10-10 12:32:49,610 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h
+2023-10-10 12:32:49,650 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c_save
+2023-10-10 12:32:49,906 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c
+2023-10-10 12:32:50,819 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 241mS.
+2023-10-10 12:32:50,822 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-10 12:32:51,418 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-10-10 12:32:54,748 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 3925mS.
+2023-10-10 12:32:54,749 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-10 12:32:54,755 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-10 16:49:50,935 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,935 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,938 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,938 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,938 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,938 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,938 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,938 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,938 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,938 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,939 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,940 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,940 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,940 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,940 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,940 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,940 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,940 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,940 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,941 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,996 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,996 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,996 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,996 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,996 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,997 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:50,998 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,015 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,015 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,015 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,016 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,016 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,017 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,018 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,052 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,052 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,052 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,052 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,053 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,054 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:49:51,077 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,077 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:49:51,078 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,010 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-10 16:50:22,055 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,055 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,058 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:22,078 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,078 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 16:50:22,078 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 16:50:48,062 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 784683704 Bytes (1073741824)
+2023-10-10 16:50:50,126 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 591096128 Bytes (1073741824)
+2023-10-10 16:50:52,499 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 663447872 Bytes (1073741824)
+2023-10-10 16:50:52,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-10 16:50:52,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-10 16:50:52,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-10 16:50:52,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-10 16:50:52,687 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-10 16:50:52,687 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-10 16:50:52,687 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-10 16:50:52,687 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-10 16:50:52,688 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-10 16:50:52,695 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-10 16:50:52,696 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-10 16:50:52,866 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp_save
+2023-10-10 16:50:52,972 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp
+2023-10-10 16:50:53,026 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp_save
+2023-10-10 16:50:53,141 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp
+2023-10-10 16:50:53,665 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c_save
+2023-10-10 16:50:53,809 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c
+2023-10-10 16:50:53,821 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h_save
+2023-10-10 16:50:53,905 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h
+2023-10-10 16:50:53,946 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-10 16:50:54,076 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c
+2023-10-10 16:50:54,099 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp_save
+2023-10-10 16:50:54,174 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp
+2023-10-10 16:50:54,221 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-10 16:50:54,335 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-10 16:50:54,393 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-10-10 16:50:54,394 [WARN] CodeGenerator:3760 - IP not found : null
+2023-10-10 16:50:54,424 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h_save
+2023-10-10 16:50:54,513 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h
+2023-10-10 16:50:54,552 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c_save
+2023-10-10 16:50:54,756 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c
+2023-10-10 16:50:55,874 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 806mS.
+2023-10-10 16:50:55,880 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-10 16:50:56,226 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-10-10 16:50:57,468 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1588mS.
+2023-10-10 16:50:57,469 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-10-10 16:50:57,475 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-10 17:01:35,967 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,967 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,970 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,970 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,970 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,970 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,970 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,970 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,970 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,971 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,972 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,972 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,972 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,972 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,972 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,972 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:35,972 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:35,972 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,021 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,021 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,021 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,021 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,021 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,022 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,023 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,023 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,023 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,023 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,023 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,023 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,023 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,043 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,043 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,043 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,044 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,045 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,061 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,062 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,062 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,063 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,063 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,064 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,064 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,064 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,064 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,065 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,093 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,093 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,093 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,093 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,093 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,094 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,095 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,095 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:01:36,114 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,114 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:01:36,114 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:21:52,262 [INFO] SpinnerEditorADC:65 - is string kkkk
+2023-10-10 17:22:30,799 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,799 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,803 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,803 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,803 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,803 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,804 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,805 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:30,853 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,853 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:22:30,853 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:22:33,269 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-10 17:22:34,562 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-10 17:22:35,843 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 703375168 Bytes (1073741824)
+2023-10-10 17:22:37,915 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 607946464 Bytes (1073741824)
+2023-10-10 17:22:40,105 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 676630240 Bytes (1073741824)
+2023-10-10 17:22:40,256 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-10 17:22:40,256 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-10 17:22:40,256 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-10 17:22:40,256 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-10 17:22:40,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-10 17:22:40,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-10 17:22:40,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-10 17:22:40,257 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-10 17:22:40,257 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-10 17:22:40,263 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-10 17:22:40,263 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-10 17:22:40,366 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp_save
+2023-10-10 17:22:40,460 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp
+2023-10-10 17:22:40,482 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp_save
+2023-10-10 17:22:40,590 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp
+2023-10-10 17:22:40,846 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c_save
+2023-10-10 17:22:40,979 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c
+2023-10-10 17:22:40,984 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h_save
+2023-10-10 17:22:41,050 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h
+2023-10-10 17:22:41,074 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-10 17:22:41,209 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c
+2023-10-10 17:22:41,216 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp_save
+2023-10-10 17:22:41,276 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp
+2023-10-10 17:22:41,297 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-10 17:22:41,415 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-10 17:22:41,462 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-10-10 17:22:41,463 [WARN] CodeGenerator:3760 - IP not found : null
+2023-10-10 17:22:41,490 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h_save
+2023-10-10 17:22:41,610 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h
+2023-10-10 17:22:41,633 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c_save
+2023-10-10 17:22:41,778 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c
+2023-10-10 17:22:42,263 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 187mS.
+2023-10-10 17:22:42,265 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-10 17:22:42,550 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-10-10 17:22:43,691 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1426mS.
+2023-10-10 17:22:43,692 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-10 17:22:43,694 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-10 17:31:35,642 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,642 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,643 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,672 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,672 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,672 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,672 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,672 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,673 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,690 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,690 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,690 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,692 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,692 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,693 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,721 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,721 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,721 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,722 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,723 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,740 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,740 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,740 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,740 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,741 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,742 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,762 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,762 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,762 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,763 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,764 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,782 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,782 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,782 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,783 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,783 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,784 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,785 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,785 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,785 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,785 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,785 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,785 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,785 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,785 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:31:35,806 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,806 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:31:35,806 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,414 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,414 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,417 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,417 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,417 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,417 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,418 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,419 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,460 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,460 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,460 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,461 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,461 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,461 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,461 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,461 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,461 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,461 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,461 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,462 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,477 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,478 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,478 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,478 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,479 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,497 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,498 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,498 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,498 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,499 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,499 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,499 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,499 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,499 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,499 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,499 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,499 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,499 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,500 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,517 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,517 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,517 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,519 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,519 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,519 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,519 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,519 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,519 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,519 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,519 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,520 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,542 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,542 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,542 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,543 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,543 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,544 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,561 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,562 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,562 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,562 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,562 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,563 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,564 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,564 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,564 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,564 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,564 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,564 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,564 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,564 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,564 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 17:50:23,581 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,581 [INFO] ADCParametersView:116 -                Rank 1 : true
+2023-10-10 17:50:23,581 [INFO] ADCParametersView:116 -                Rank 2 : true
+2023-10-10 18:04:47,290 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 696513008 Bytes (1073741824)
+2023-10-10 18:04:47,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-10 18:04:47,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-10 18:04:47,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-10 18:04:47,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-10 18:04:47,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-10 18:04:47,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-10 18:04:47,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-10 18:04:47,439 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-10 18:04:47,440 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-10-10 18:04:47,448 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-10 18:04:47,448 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-10 18:04:47,556 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp_save
+2023-10-10 18:04:47,673 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\license.tmp
+2023-10-10 18:04:47,694 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp_save
+2023-10-10 18:04:47,812 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\gpio.tmp
+2023-10-10 18:04:48,062 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c_save
+2023-10-10 18:04:48,225 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_it.c
+2023-10-10 18:04:48,230 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h_save
+2023-10-10 18:04:48,291 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_it.h
+2023-10-10 18:04:48,313 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-10 18:04:48,440 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\stm32f4xx_hal_msp.c
+2023-10-10 18:04:48,448 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp_save
+2023-10-10 18:04:48,527 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\MXTmpFiles\system.tmp
+2023-10-10 18:04:48,552 [INFO] CodeEngine:311 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-10 18:04:48,666 [INFO] CodeEngine:335 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-10 18:04:48,716 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-10-10 18:04:48,716 [WARN] CodeGenerator:3760 - IP not found : null
+2023-10-10 18:04:48,729 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h_save
+2023-10-10 18:04:48,863 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Inc\main.h
+2023-10-10 18:04:48,877 [INFO] CodeEngine:255 - oldGeneratedFile, C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c_save
+2023-10-10 18:04:49,010 [INFO] CodeEngine:279 - Generated code: C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\Core\Src\main.c
+2023-10-10 18:04:49,468 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 173mS.
+2023-10-10 18:04:49,468 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-10-10 18:04:49,736 [INFO] ConfigFileManager:1457 - The Die is : DIE431
+2023-10-10 18:04:50,870 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1402mS.
+2023-10-10 18:04:50,871 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-10-10 18:04:50,873 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.

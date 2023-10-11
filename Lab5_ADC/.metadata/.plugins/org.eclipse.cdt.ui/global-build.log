@@ -1,0 +1,204 @@
+12:31:44 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-size   Labb_5_ADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30860	    480	   2272	  33612	   834c	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+12:31:47 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-size   Labb_5_ADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30860	    480	   2272	  33612	   834c	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+12:32:09 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30844	    480	   2272	  33596	   833c	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:33:59 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/lcd.d" -MT"Core/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/lcd.o"
+../Core/Src/lcd.c: In function 'TextLCD_Init':
+../Core/Src/lcd.c:121:18: warning: unused variable 'dly' [-Wunused-variable]
+  121 |         uint32_t dly = 5 * 1000 * 1000;
+      |                  ^~~
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30844	    480	   2272	  33596	   833c	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:34:47 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30860	    480	   2272	  33612	   834c	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:34:50 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-size   Labb_5_ADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30860	    480	   2272	  33612	   834c	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+12:37:31 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:33: error: 'JOY_y_IX' undeclared (first use in this function); did you mean 'JOY_Y_IX'?
+  179 |                   if(adc_buffer[JOY_y_IX] >= 0){
+      |                                 ^~~~~~~~
+      |                                 JOY_Y_IX
+../Core/Src/main.c:179:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+12:37:51 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30876	    480	   2272	  33628	   835c	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:42:25 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30868	    480	   2272	  33620	   8354	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:46:42 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:184:19: warning: implicit declaration of function 'Text_LCD_Clear'; did you mean 'TextLCD_Clear'? [-Wimplicit-function-declaration]
+  184 |                   Text_LCD_Clear(&lcd);
+      |                   ^~~~~~~~~~~~~~
+      |                   TextLCD_Clear
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/work/TMIK13/Lab5_ADC/Labb_5_ADC/Debug/../Core/Src/main.c:184: undefined reference to `Text_LCD_Clear'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: Labb_5_ADC.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+12:46:57 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30900	    480	   2272	  33652	   8374	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:48:32 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30868	    480	   2272	  33620	   8354	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:50:17 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30908	    480	   2272	  33660	   837c	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:51:19 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30900	    480	   2272	  33652	   8374	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:52:00 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30868	    480	   2272	  33620	   8354	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
+12:53:51 **** Incremental Build of configuration Debug for project Labb_5_ADC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Labb_5_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Labb_5_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Labb_5_ADC.elf
+ 
+arm-none-eabi-size   Labb_5_ADC.elf 
+arm-none-eabi-objdump -h -S  Labb_5_ADC.elf  > "Labb_5_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  30916	    480	   2272	  33668	   8384	Labb_5_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Labb_5_ADC.list
+ 
