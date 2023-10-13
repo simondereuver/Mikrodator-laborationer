@@ -1,0 +1,19 @@
+!SESSION 2023-10-13 16:17:46.354 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\work\TMIK13\Lab5_ADC\Labb_5_ADC\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-13 16:18:45.552
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-13 16:18:45.577
+!MESSAGE Log4j2 initialized with config file C:\work\TMIK13\Labb_5_ADC\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-13 16:19:03.462
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-13 16:19:14.800
+!MESSAGE Indexed 'Labb_5_ADC' (29 sources, 155 headers) in 7.81 sec: 14,888 declarations; 79,835 references; 7 unresolved inclusions; 161 syntax errors; 1,472 unresolved names (1.5%)

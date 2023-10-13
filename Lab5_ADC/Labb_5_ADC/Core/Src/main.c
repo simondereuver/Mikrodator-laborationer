@@ -107,15 +107,30 @@ void convert_celcsius_to_str(float numbah)
 
 float normalize_12bit(uint16_t x)
 {
-	return x / 4095.0;
+	return 1 - (x / 4095.0);
 }
 float normalize_12bit_posneg(uint16_t x)
 {
 	return (x / 2048.0) - 1;
 }
+/*
 float lm35_to_celcsius(uint16_t lm35_reading)
 {
-	return (lm35_reading / 100.0);
+	return (float)(lm35_reading / 23.0);
+}
+*/
+float lm35_to_celcsius(uint16_t lm35_reading)
+{
+    // Spänningsnivån (i millivolt) som LM35 genererar per grad Celsius
+    float mV_per_Celsius = 10.0;
+
+    // Konvertera LM35-avläsningsvärdet till spänning (i millivolt)
+    float voltage_mV = (lm35_reading / 4095.0) * 2500.0;  // 3300 mV är 3.3 V, ADC med 12 bitar
+
+    // Beräkna temperatur i grader Celsius
+    float temperature_Celsius = voltage_mV / mV_per_Celsius;
+
+    return temperature_Celsius;
 }
 float light_sensor(uint16_t light_reading)
 {
@@ -208,7 +223,7 @@ int main(void)
 		  TextLCD_Position(&lcd, 10, 0);
 		  convert_celcsius_to_str(lm35_to_celcsius(adc_buffer[LM35_IX]));
 		  TextLCD_PutStr(&lcd, str);
-		  TextLCD_PutChar(&lcd, 176);
+		  TextLCD_PutChar(&lcd, 0B11011111);
 		  TextLCD_PutChar(&lcd, 'C');
 
 		  //light value
